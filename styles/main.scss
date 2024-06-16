@@ -1,0 +1,30 @@
+.main__container{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 4rem 1.5rem;
+
+    &--text{
+        font-size: 0.8125rem;
+        font-weight: 700;
+        letter-spacing: 0.175rem;
+        width: 60%;
+        line-height: 18px;
+    }
+
+    &--title{
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    }
+
+    &--buttons{
+        display: inline-grid;
+    }
+}
+
+.btn{
+    margin-top: 1.5rem;
+}

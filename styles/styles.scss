@@ -1,4 +1,6 @@
 @import "navbar.scss";
+@import "main.scss";
+
 
 
 html, * { 
@@ -11,3 +13,28 @@ body {
     min-width: 320px
 }
 
+.font--archivo{
+    font-family: "Archivo", sans-serif;
+}
+
+.font--old{
+    font-family: "Old Standard TT", serif;
+}
+
+.button--color{
+    background-color: #BEAD8E;
+    border: 2px solid #BEAD8E;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.9rem 2.5rem;
+}
+
+.button--black{
+    background-color: #333333;
+    border: 2px solid #676767;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.9rem 2.5rem;
+}

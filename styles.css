@@ -3,14 +3,12 @@
   top: 0;
   background-color: white;
   z-index: 99;
-  padding: 0.5rem;
+  padding: 0.8rem;
   transition: transform 0.25s ease-in-out;
-  /* user-select: none; */
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
 }
 .header__nav {
   align-items: center;
-  padding: 3% 5%;
   background-color: #ffffff;
   width: 100%;
   overflow: hidden;
@@ -18,32 +16,65 @@
 .header__nav__logo--container {
   display: flex;
   align-items: center;
+  width: 100%;
+  margin-left: 1rem;
+}
+.header__nav__logo--container--text {
+  margin-left: 0.5rem;
+}
+.header__nav__logo--container--text--title {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.header__nav__logo--container--text--subtitle {
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 .header__nav__logo--container--a--text--container {
   font-size: 0.8rem;
 }
 .header__nav__logo--container--a--img {
   box-shadow: -6px 2px 22px -11px rgba(0, 0, 0, 0.75);
-  width: 20%;
+  width: 18%;
 }
 .header__nav--icons {
   display: flex;
 }
-
-.header__nav__logo--container {
-  font-family: "Archivo", sans-serif;
-  margin-left: 0.5rem;
-}
-.header__nav__logo--container--text--title {
-  font-weight: 800;
-}
-.header__nav__logo--container--text--subtitle {
-  font-weight: 400;
+.header__nav--icons--search {
+  margin-left: 1rem;
 }
 
 .flex {
   display: flex;
   align-items: center;
+}
+
+.main__container {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 4rem 1.5rem;
+}
+.main__container--text {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.175rem;
+  width: 60%;
+  line-height: 18px;
+}
+.main__container--title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+.main__container--buttons {
+  display: inline-grid;
+}
+
+.btn {
+  margin-top: 1.5rem;
 }
 
 html, * {
@@ -54,6 +85,32 @@ html, * {
 
 body {
   min-width: 320px;
+}
+
+.font--archivo {
+  font-family: "Archivo", sans-serif;
+}
+
+.font--old {
+  font-family: "Old Standard TT", serif;
+}
+
+.button--color {
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0.9rem 2.5rem;
+}
+
+.button--black {
+  background-color: #333333;
+  border: 2px solid #676767;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0.9rem 2.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
