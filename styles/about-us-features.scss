@@ -39,5 +39,41 @@
     letter-spacing: 0rem;
     text-align: center;
     }
-    
+
+    &--imgLuxury{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    &--luxury--container{
+        background-color: #111;
+        text-align: center;
+        padding: 0rem 0rem 3rem 0rem;
+
+        &--icon{
+            margin-top: 3rem;
+        }
+
+        &--title{
+            margin-bottom: 0.7em;
+            font-weight: 400;
+            font-size: 1.9rem;
+            line-height: 1.9rem;
+            letter-spacing: -0.1rem;
+            color: white;
+            margin-top: 2rem;
+        }
+
+        &--text{
+            margin: 0 auto;
+    width: 77%;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    letter-spacing: 0rem;
+    color: white;
 }
+        }
+    }
+    
+
