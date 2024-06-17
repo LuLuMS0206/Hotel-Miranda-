@@ -331,6 +331,15 @@
   line-height: 1.5rem;
   color: #222222;
   width: 72%;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  margin-top: 4rem;
+}
+.menu__img {
+  display: flex;
+  justify-content: flex-end;
 }
 
 html, * {
