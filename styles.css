@@ -341,6 +341,40 @@
   display: flex;
   justify-content: flex-end;
 }
+.menu__title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #777777;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.175rem;
+}
+.menu__subtitle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  color: #222222;
+}
+.menu__container__menus {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.menu__container__menus__img {
+  width: 40%;
+}
+.menu__container__menus__text__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+}
+.menu__container__menus__text__p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #222222;
+}
 
 html, * {
   box-sizing: border-box;
