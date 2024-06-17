@@ -1,0 +1,23 @@
+.rooms{
+    text-align: center;
+
+    
+    &__titles--title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #777777;
+    letter-spacing: 2.8px;
+    }
+
+    &__titles--subtitle{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #222222;
+        }
+}

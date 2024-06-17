@@ -196,6 +196,27 @@
   color: white;
 }
 
+.rooms {
+  text-align: center;
+}
+.rooms__titles--title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #777777;
+  letter-spacing: 2.8px;
+}
+.rooms__titles--subtitle {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  text-align: center;
+  margin-top: 2rem;
+  color: #222222;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
