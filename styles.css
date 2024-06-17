@@ -293,11 +293,14 @@
   margin-top: 1rem;
 }
 
+.facilities {
+  padding: 0rem 2rem;
+}
+
 .facilities__titles--title {
   font-weight: 700;
   font-size: 0.875rem;
   color: #777777;
-  margin-left: 1rem;
   margin-bottom: 1.5rem;
   text-align: center;
   letter-spacing: 0.175rem;
@@ -306,10 +309,28 @@
 .facilities__titles--subtitle {
   font-weight: 400;
   font-size: 3.5rem;
-  margin-left: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
   color: #222222;
   text-align: center;
+}
+
+.facilities__container--icons--01 {
+  transform: translate(128px, -63px);
+}
+
+.facilities__container--text--title {
+  font-weight: 400;
+  font-size: 1.875rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.facilities__container--text--p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #222222;
+  width: 72%;
 }
 
 html, * {
