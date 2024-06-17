@@ -2,19 +2,20 @@
     background-color: #333333;
     color: #FFFFFF;
     padding: 4rem 1.5rem;
+    margin-top: 4rem;
 
     &--text{
         font-size: 0.8125rem;
         font-weight: 700;
         letter-spacing: 0.175rem;
         width: 60%;
-        line-height: 18px;
+        line-height: 1.125rem;
     }
 
     &--title{
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 3.75rem;
     letter-spacing: -1.2000000476837158px;
     margin-bottom: 1.5rem;
     margin-top: 2rem;
@@ -27,4 +28,27 @@
 
 .btn{
     margin-top: 1.5rem;
+}
+
+.main__form{
+    background-color: #222222;
+    padding: 2rem 1.5rem 2rem 1rem;
+
+    &--input--container{
+        width: 100%;
+    background-color: unset;
+    border: unset;
+    border-bottom: 2px solid #BEAD8E;
+    font-size: 0.875rem;
+    color: #686868;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    }
+
+    &--input--text{
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
 }
