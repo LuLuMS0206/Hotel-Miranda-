@@ -261,6 +261,38 @@
   color: #BEAD8E;
 }
 
+.introVideo {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 2rem 1rem;
+  margin-top: 10rem;
+}
+.introVideo__text--intro {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.175rem;
+  color: #BEAD8E;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+.introVideo__text--title {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: white;
+}
+.introVideo__text--p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  margin-top: 1rem;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
