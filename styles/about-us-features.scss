@@ -1,0 +1,43 @@
+.about__us__features{
+    padding: 2em 1.25em;
+
+    &--img{
+        width: 100%;
+    }
+    
+    &--feature{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    &--feature--img{
+        position: absolute;
+        z-index: -1;
+        translate: -42px 4px;
+    
+    }
+    
+
+    &--feature--title{
+        margin-bottom: 0.7em;
+        font-weight: 400;
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+        letter-spacing: -0.1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    &--feature--text{
+        margin: 0 auto;
+    width: 77%;
+    color: #111;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    letter-spacing: 0rem;
+    text-align: center;
+    }
+    
+}
