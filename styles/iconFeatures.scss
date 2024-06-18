@@ -1,0 +1,26 @@
+.iconFeatures{
+    margin-top: 3rem;
+
+    &__container{
+        background-color: #222222;
+        display: block;
+        text-align: center;
+        padding: 2.5rem;
+
+        &__group{
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__container__group__title{
+        margin-top: 1rem;
+        margin-bottom: -8px;
+        font-size: 60px;
+        color: white;
+    }
+
+    &__container__group__subtitle{
+        font-size: 16px;
+    color: #999999;
+    }
+}
