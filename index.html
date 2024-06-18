@@ -20,12 +20,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <script src="./js/navbarHamb.js" defer></script>
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <header class="header">
-        <!-- <p class="header__slogan">We Make Your Feel Comfortable</p> -->
+    <!-- <header class="header">
+        <p class="header__slogan">We Make Your Feel Comfortable</p>
         <nav class="header__nav">
 
             <div class="flex">
@@ -44,7 +45,7 @@
                     </div>
                 </div>
 
-                <!-- <ul class="header__nav--list">
+                <ul class="header__nav--list">
                 <li class="header__nav--item">
                     <a class="header__nav-link" >Abous Us</a>
                 </li>
@@ -57,7 +58,7 @@
                 <li class="header__nav--item">
                     <a class="header__nav-link">Contact</a>
                 </li>
-            </ul> -->
+            </ul>
 
                 <div class="header__nav--icons">
                     <img src="assets/imagenes/Vector.svg" alt="">
@@ -66,8 +67,54 @@
 
             </div>
         </nav>
-    </header>
+    </header> -->
     <!-- END NAVBAR -->
+
+
+    <!-- NAVBAR -->
+<header class="header">
+    <nav class="header__nav">
+        <div class="flex">
+            <div class='header__nav--container' id="OpenButtonMenu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+
+            <div class="header__nav__logo--container font--archivo">
+                <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG" alt="logo">
+                <div class="header__nav__logo--container--text">
+                    <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
+                    <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
+                </div>
+            </div>
+
+            <div class="header__nav--icons">
+                <img src="assets/imagenes/Vector.svg" alt="">
+                <img class="header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
+            </div>
+        </div>
+
+        <div class="header__nav__menuDesplegable" id="HamburguerMenu">
+            <ul class="header__nav__menuDesplegable__list">
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">About Us</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Rooms</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Offers</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- END NAVBAR -->
+
 
 
     <!-- SECTION MAIN -->
@@ -385,16 +432,16 @@
                 <div class="footer__contact__container__flex">
                     <img src="assets/imagenes/mail-footer.svg" alt="">
                     <div class="footer__contact__container__info">
-                        <p class="footer__contact__container__info__text font--old">Phone Number</p>
-                        <p class="footer__contact__container__info__number font--roboto"> +987 876 765 76 577</p>
+                        <p class="footer__contact__container__info__text font--old">Email address</p>
+                        <p class="footer__contact__container__info__number font--roboto"> contacto@hotelmiranda.com</p>
                     </div>
                 </div>
 
                 <div class="footer__contact__container__flex">
                     <img src="assets/imagenes/gps-footer.svg" alt="">
                     <div class="footer__contact__container__info">
-                        <p class="footer__contact__container__info__text font--old">Phone Number</p>
-                        <p class="footer__contact__container__info__number font--roboto"> +987 876 765 76 577</p>
+                        <p class="footer__contact__container__info__text font--old">Location</p>
+                        <p class="footer__contact__container__info__number font--roboto">Lorem ipsun dolor sit amet, 8</p>
                     </div>
                 </div>
             </div>
