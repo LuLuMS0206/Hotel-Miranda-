@@ -1,0 +1,52 @@
+.about {
+
+    &__content {
+        background-color: #333333;
+        padding: 2rem 1rem 5rem 1rem;
+        margin-top: 4.5rem;
+
+        &__title {
+            font-weight: 700;
+            font-size: 0.8125rem;
+            color: white;
+            letter-spacing: 0.175rem;
+            margin-top: 2rem;
+        }
+
+        &__subtitle {
+            font-weight: 400;
+            font-size: 3.5rem;
+            color: white;
+            letter-spacing: -0.075rem;
+            margin-top: 1.5rem;
+        }
+    }
+
+    &__select {
+        translate: 15% -99%;
+        max-width: 12rem;
+        background-color: #fff;
+        margin-right: 15%;
+        margin-left: auto;
+        padding: 1rem;
+
+        &__container {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.0881rem;
+            letter-spacing: -0.03rem;
+        }
+    }
+
+    &__video__text{
+        font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4719rem;
+    letter-spacing: -0.0719rem;
+    padding: 3rem 1.5rem 1rem 1.5rem;
+    text-align: center;
+    }
+
+    
+}
