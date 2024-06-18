@@ -424,7 +424,7 @@
   color: #999999;
 }
 
-.footer {
+.footer__background {
   background-image: url("assets/imagenes/bg (2).png");
   background-repeat: no-repeat;
   background-position: center;
@@ -522,6 +522,17 @@
   font-weight: 400;
   font-size: 14px;
   color: #777777;
+}
+.footer__copyright {
+  background-color: #F8F8F8;
+  padding: 1rem 1rem 0rem 1rem;
+}
+.footer__copyright__text {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.1719rem;
+  letter-spacing: -0.03rem;
+  margin-bottom: 1rem;
 }
 
 .margin {
