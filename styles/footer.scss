@@ -86,9 +86,46 @@
         }
     }
 
+    &__contact {
+        margin-top: 2rem;
+        padding: 0rem 1rem;
+
+        &__title {
+            font-weight: 400;
+            font-size: 24px;
+            margin-bottom: 2rem;
+        }
+
+        &__container {
+
+
+            &__flex {
+                display: flex;
+                margin-bottom: 2.5rem;
+            }
+
+            &__info {
+                margin-left: 2rem;
+            }
+
+            &__info__text {
+                font-weight: 400;
+                font-size: 20px;
+                color: #222222;
+            }
+
+            &__info__number {
+                font-weight: 400;
+                font-size: 14px;
+                color: #777777;
+            }
+        }
+    }
 }
 
-.margin{
+
+
+.margin {
     margin-left: 2rem;
 }
 

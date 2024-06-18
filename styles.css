@@ -497,6 +497,32 @@
   font-size: 16px;
   color: #777777;
 }
+.footer__contact {
+  margin-top: 2rem;
+  padding: 0rem 1rem;
+}
+.footer__contact__title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+.footer__contact__container__flex {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+.footer__contact__container__info {
+  margin-left: 2rem;
+}
+.footer__contact__container__info__text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
+}
+.footer__contact__container__info__number {
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+}
 
 .margin {
   margin-left: 2rem;
