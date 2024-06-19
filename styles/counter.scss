@@ -1,0 +1,31 @@
+.counter {
+
+    margin-top: 2rem;
+
+    &__text__title {
+
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 0.9519rem;
+        letter-spacing: 0.175rem;
+        color: #777777;
+
+
+    }
+
+
+    &__text__subtitle {
+
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+
+
+    }
+
+    &__facts__fact {
+        display: flex;
+    }
+
+}

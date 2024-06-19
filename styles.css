@@ -303,6 +303,7 @@
 .introVideo__container__video {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 
 .facilities {
@@ -700,6 +701,26 @@
   margin-top: 2rem;
 }
 
+.counter {
+  margin-top: 2rem;
+}
+.counter__text__title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.counter__text__subtitle {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+}
+.counter__facts__fact {
+  display: flex;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -736,7 +757,7 @@ body {
   border: 2px solid #676767;
   color: white;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 14px;
   padding: 0.9rem 2.5rem;
 }
 
