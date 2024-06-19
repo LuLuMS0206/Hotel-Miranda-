@@ -58,7 +58,13 @@
     }
 }
 
+.header__nav__menuDesplegable {
+    display: none;
+}
 
+.header__nav__menuDesplegable--active {
+    display: block;
+}
 
 .flex {
     display: flex;
