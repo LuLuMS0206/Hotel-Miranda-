@@ -20,54 +20,56 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <script src="./js/navbarHamb.js" defer></script>
 </head>
 
 <body>
+
+
     <!-- NAVBAR -->
-    <header class="header">
-        <!-- <p class="header__slogan">We Make Your Feel Comfortable</p> -->
-        <nav class="header__nav">
-
-            <div class="flex">
-
-                <div class='header__nav--container'>
-                    <span class="material-symbols-outlined">
-                        menu
-                    </span>
-                </div>
-
-                <div class="header__nav__logo--container font--archivo">
-                    <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG" alt="logo">
-                    <div class="header__nav__logo--container--text">
-                        <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
-                        <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
-                    </div>
-                </div>
-
-                <!-- <ul class="header__nav--list">
-                <li class="header__nav--item">
-                    <a class="header__nav-link" >Abous Us</a>
-                </li>
-                <li class="header__nav--item">
-                    <a class="header__nav-link" >Rooms</a>
-                </li>
-                <li class="header__nav--item">
-                    <a class="header__nav-link">Offers</a>
-                </li>
-                <li class="header__nav--item">
-                    <a class="header__nav-link">Contact</a>
-                </li>
-            </ul> -->
-
-                <div class="header__nav--icons">
-                    <img src="assets/imagenes/Vector.svg" alt="">
-                    <img class="header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
-                </div>
-
+<header class="header">
+    <nav class="header__nav">
+        <div class="flex">
+            <div class='header__nav--container' id="OpenButtonMenu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
             </div>
-        </nav>
-    </header>
-    <!-- END NAVBAR -->
+
+            <div class="header__nav__logo--container font--archivo">
+                <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG" alt="logo">
+                <div class="header__nav__logo--container--text">
+                    <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
+                    <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
+                </div>
+            </div>
+
+            <div class="header__nav--icons">
+                <img src="assets/imagenes/Vector.svg" alt="">
+                <img class="header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
+            </div>
+        </div>
+
+        <div class="header__nav__menuDesplegable" id="HamburguerMenu">
+            <ul class="header__nav__menuDesplegable__list">
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">About Us</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Rooms</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Offers</a>
+                </li>
+                <li class="header__nav__menuDesplegable__item">
+                    <a class="header__nav__menuDesplegable__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- END NAVBAR -->
+
 
 
     <!-- SECTION MAIN -->
@@ -137,7 +139,8 @@
         <div class="about__us__features--luxury--container">
             <img class="about__us__features--luxury--container--icon" src="assets/imagenes/calendar-luxury.svg" alt="">
             <p class="about__us__features--luxury--container--title font--old">Luxury Room</p>
-            <p class="about__us__features--luxury--container--text font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+            <p class="about__us__features--luxury--container--text font--roboto">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor.</p>
         </div>
     </section>
 
@@ -146,6 +149,277 @@
 
     <!-- END SECTION ABOUT-US -->
 
+
+    <!-- SECTION ROOMS -->
+    <section class="rooms">
+        <div class="rooms__titles">
+            <p class="rooms__titles--title font--archivo">ROOMS</p>
+            <p class="rooms__titles--subtitle font--old">Hand Picked Rooms</p>
+        </div>
+
+        <div class="rooms__container">
+            <div class="rooms__container--iconGroup">
+                <img src="assets/imagenes/room.svg" alt="">
+                <img src="assets/imagenes/wifi.svg" alt="">
+                <img src="assets/imagenes/car.svg" alt="">
+                <img src="assets/imagenes/winter.svg" alt="">
+
+                <img src="assets/imagenes/gym.svg" alt="">
+                <img src="assets/imagenes/smoke.svg" alt="">
+                <img src="assets/imagenes/cocktel.svg" alt="">
+            </div>
+
+            <img src="" alt="">
+
+            <div class="rooms__container--info">
+                <div class="rooms__container--info--description">
+                    <h2 class="rooms__container--info--description--title font--old">Minimal Duplex Room</h2>
+                    <p class="rooms__container--info--description--text font--roboto">Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore.</p>
+                </div>
+
+                <div class="rooms__container--info--price">
+                    <h2 class="rooms__container--info--price--number font--archivo">$345</h2>
+                    <p class="rooms__container--info--price--text">/Night</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END SECTION ROOMS -->
+
+
+    <!-- SECTION INTRO VIDEO -->
+    <section class="introVideo">
+        <div class="introVideo__text">
+            <p class="introVideo__text--intro font--archivo">INTRO VIDEO</p>
+            <h2 class="introVideo__text--title font--old">Meet With Our Luxury Place.</h2>
+            <p class="introVideo__text--p font--archivo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat you have to understand this.</p>
+        </div>
+
+        <div class="introVideo__container">
+
+<video src="https://www.youtube.com/watch?v=Bu3Doe45lcU"></video>
+
+         
+
+            <button class="button--color">BOOK NOW</button>
+        </div>
+
+    </section>
+    <!-- END SECTION INTRO VIDEO -->
+
+
+    
+
+
+
+    <!-- SECTION FACILITIES -->
+    <section class="facilities">
+        <div class="facilities__titles">
+            <p class="facilities__titles--title font--archivo">Facilities</p>
+            <p class="facilities__titles--subtitle font--old">Core Features</p>
+        </div>
+
+        <div class="facilities__container">
+            <div class="facilities__container--icons">
+                <img class="facilities__container--icons--icon" src="assets/imagenes/icon-facilities.svg" alt="">
+                <img class="facilities__container--icons--01" src="assets/imagenes/01-facilities.svg" alt="">
+            </div>
+
+            <div class="facilities__container--text">
+                <p class="facilities__container--text--title font--old">Have High Rating</p>
+                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna..</p>
+                <img src="assets/imagenes/Frame-facilities.svg" alt="">
+            </div>
+        </div>
+
+
+    </section>
+    <!-- END SECTION FACILITIES -->
+
+
+    <!-- SECTION MENU -->
+    <section class="menu">
+        <div class="menu__img">
+            <img src="assets/imagenes/cookie.svg" alt="">
+        </div>
+
+        <div class="menu__text ">
+            <p class="menu__title font--archivo">MENU</p>
+            <p class="menu__subtitle font--old">Our Foods Menu</p>
+        </div>
+
+        <div class="menu__container">
+            <div class="menu__container__menus">
+                <img class="menu__container__menus__img" src="assets/imagenes/bacon.jpg" alt="">
+                <div class="menu__container__menus__text">
+                    <p class="menu__container__menus__text__title font--old">Eggs & Bacon</p>
+                    <p class="menu__container__menus__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+
+            <div class="menu__container__menus">
+                <img class="menu__container__menus__img" src="assets/imagenes/coffe.jpg" alt="">
+                <div class="menu__container__menus__text">
+                    <p class="menu__container__menus__text__title font--old">Tea or Coffee</p>
+                    <p class="menu__container__menus__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+
+            <div class="menu__container__menus">
+                <img class="menu__container__menus__img" src="assets/imagenes/chia2.jpg" alt="">
+                <div class="menu__container__menus__text">
+                    <p class="menu__container__menus__text__title font--old">Chia Oatmeal</p>
+                    <p class="menu__container__menus__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur adip
+                        isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu__icons">
+            <img class="menu__icons__left" src="assets/imagenes/Left-arrow.svg" alt="">
+            <img src="assets/imagenes/Right-arrow.svg" alt="">
+        </div>
+
+        <div class="menu__img__container">
+            <img class="menu__img__container__cheese" src="assets/imagenes/cheese.webp" alt="">
+            <img src="assets/imagenes/Frame-facilities.svg" alt="">
+        </div>
+
+    </section>
+
+    <!-- END SECTION MENU -->
+
+
+    <!-- SECTION ICON FEATURES -->
+    <section class="iconFeatures">
+        <div class="iconFeatures__container">
+            <div class="iconFeatures__container__group">
+                <img class="iconFeatures__container__group__img" src="assets/imagenes/nave.svg" alt="">
+                <h1 class="iconFeatures__container__group__title font--roboto">84k+</h1>
+                <p class="iconFeatures__container__group__subtitle font--roboto">Projects are Completed</p>
+            </div>
+
+            <div class="iconFeatures__container__group">
+                <img class="iconFeatures__container__group__img" src="assets/imagenes/persons.svg" alt="">
+                <h1 class="iconFeatures__container__group__title font--roboto">10M+</h1>
+                <p class="iconFeatures__container__group__subtitle font--roboto">Active Backers Around World</p>
+            </div>
+
+            <div class="iconFeatures__container__group">
+                <img class="iconFeatures__container__group__img" src="assets/imagenes/person-price.svg" alt="">
+                <h1 class="iconFeatures__container__group__title font--roboto">02k+</h1>
+                <p class="iconFeatures__container__group__subtitle font--roboto">Categories Served</p>
+            </div>
+
+            <div class="iconFeatures__container__group">
+                <img class="iconFeatures__container__group__img" src="assets/imagenes/book.svg" alt="">
+                <h1 class="iconFeatures__container__group__title font--roboto">100M+</h1>
+                <p class="iconFeatures__container__group__subtitle font--roboto">Idea Raised Funds</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- END SECTION ICON FEATURES -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__background">
+        <div class="footer__container">
+            <img class="footer__container__logo" src="assets/imagenes/logo-footer.JPG" alt="">
+            <div class="footer__container__text">
+                <h2 class="footer__container__text__title font--archivo">HOTEL</h2>
+                <h2 class="footer__container__text__subtitle font--archivo">MIRANDA</h2>
+            </div>
+        </div>
+        <p class="footer__p font--archivo">Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed doing eius mod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitat ion
+            ullamco laboris nisi.</p>
+
+        <div class="footer__logoIcons">
+            <img class="footer__logoIcons__container" src="assets/imagenes/facebook.svg" alt="">
+            <img class="footer__logoIcons__container twitter" src="assets/imagenes/twitter.svg" alt="">
+            <img class="footer__logoIcons__container" src="assets/imagenes/be.svg" alt="">
+            <img class="footer__logoIcons__container" src="assets/imagenes/linkedin.svg" alt="">
+            <img class="footer__logoIcons__container" src="assets/imagenes/youtube.svg" alt="">
+
+        </div>
+
+        <div class="footer__services">
+            <h2 class="footer__services__title font--old">Services.</h2>
+            <div class="footer__services__container">
+                <ul class="footer__services__container__ul font--roboto">
+                    <li class="footer__services__container__ul__item">+ Resturent & Bar </li>
+                    <li class="footer__services__container__ul__item">+ Swimming Pool</li>
+                    <li class="footer__services__container__ul__item">+ Wellness & Spa</li>
+                    <li class="footer__services__container__ul__item"> + Restaurant</li>
+                    <li class="footer__services__container__ul__item">+ Conference Room</li>
+                    <li class="footer__services__container__ul__item"> + Coctail Party House</li>
+                </ul>
+
+                <ul class="footer__services__container__ul margin font--roboto">
+                    <li class="footer__services__container__ul__item">+ Gaming Zone </li>
+                    <li class="footer__services__container__ul__item">+ Marrige Party</li>
+                    <li class="footer__services__container__ul__item">+ Party Planning</li>
+                    <li class="footer__services__container__ul__item"> + Tour Consultancy</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer__contact">
+            <h2 class="footer__contact__title">Contact Us.</h2>
+
+            <div class="footer__contact__container">
+                <div class="footer__contact__container__flex">
+                    <img src="assets/imagenes/phone-footer.svg" alt="">
+                    <div class="footer__contact__container__info">
+                        <p class="footer__contact__container__info__text font--old">Phone Number</p>
+                        <p class="footer__contact__container__info__number font--roboto"> +987 876 765 76 577</p>
+                    </div>
+                </div>
+
+                <div class="footer__contact__container__flex">
+                    <img src="assets/imagenes/mail-footer.svg" alt="">
+                    <div class="footer__contact__container__info">
+                        <p class="footer__contact__container__info__text font--old">Email address</p>
+                        <p class="footer__contact__container__info__number font--roboto"> contacto@hotelmiranda.com</p>
+                    </div>
+                </div>
+
+                <div class="footer__contact__container__flex">
+                    <img src="assets/imagenes/gps-footer.svg" alt="">
+                    <div class="footer__contact__container__info">
+                        <p class="footer__contact__container__info__text font--old">Location</p>
+                        <p class="footer__contact__container__info__number font--roboto">Lorem ipsun dolor sit amet, 8</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer__copyright">
+        <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+        <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+    </div>
+    </footer>
+
+    <!-- END FOOTER -->
 
 </body>
 
