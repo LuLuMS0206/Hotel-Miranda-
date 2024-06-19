@@ -300,6 +300,10 @@
   color: #777777;
   margin-top: 1rem;
 }
+.introVideo__container__video {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 .facilities {
   padding: 0rem 2rem;
@@ -732,7 +736,7 @@ body {
   border: 2px solid #676767;
   color: white;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0.875rem;
   padding: 0.9rem 2.5rem;
 }
 
