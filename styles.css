@@ -300,6 +300,10 @@
   color: #777777;
   margin-top: 1rem;
 }
+.introVideo__container__video {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 .facilities {
   padding: 0rem 2rem;
