@@ -1,7 +1,7 @@
 .roomsDetail {
 
     &__info {
-        padding:0rem 1.5rem;
+        padding: 0rem 1.5rem;
 
         &__container__title {
             font-size: 0.75rem;
@@ -27,8 +27,8 @@
             color: #BEAD8E;
             display: inline-block;
         }
-    
-    
+
+
         &__container__p {
             font-size: 0.8125rem;
             font-weight: 700;
@@ -37,11 +37,48 @@
             display: inline-block;
         }
 
-        &__img{
+        &__img {
             width: 100%;
             margin-top: 0.5rem;
         }
     }
 
-    
+    &__check {
+        padding: 0rem 2.5rem;
+
+        &__p {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            line-height: 1.2237rem;
+            letter-spacing: -0.0338rem;
+            margin-top: 2rem;
+        }
+
+        &__container__p {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            line-height: 0.9519rem;
+        }
+
+        &__container__input {
+            background-color: #F8F8F8;
+            padding: 1rem 1rem 1rem 1rem;
+            border: none;
+            background-position: 90%;
+            width: 100%;
+        }
+
+        &__btn {
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+
+
+
 }
