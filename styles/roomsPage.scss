@@ -1,0 +1,123 @@
+.roomsPage {
+
+    &__content {
+
+        background-color: #333333;
+        padding: 2rem 1rem 5rem 1rem;
+        margin-top: 4.5rem;
+
+        &__title {
+            font-weight: 700;
+            font-size: 0.8125rem;
+            color: white;
+            letter-spacing: 0.175rem;
+            margin-top: 2rem;
+        }
+
+        &__subtitle {
+            margin-top: 1.5rem;
+            color: white;
+            font-size: 3.5rem;
+            font-weight: 400;
+            line-height: 3.75rem;
+            letter-spacing: -0.075rem;
+            width: 90%;
+
+        }
+
+    }
+
+
+
+    &__select {
+        translate: 15% -99%;
+        max-width: 12rem;
+        background-color: #fff;
+        margin-right: 15%;
+        margin-left: auto;
+        padding: 1rem;
+        text-align: center;
+
+        &__container {
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.0881rem;
+            letter-spacing: -0.03rem;
+        }
+
+    }
+
+    &__cards {
+        padding: 0rem 1rem;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__iconGroup {
+            background-color: white;
+            width: auto;
+            /* text-align: center; */
+            padding: 0.5rem 0 0.5rem 0;
+            margin: 0 1rem 0 1rem;
+            text-align: center;
+            translate: 0% -67%;
+            box-shadow: 0px 2px 10px -5px black;
+        }
+
+        &__info {
+            padding: 0rem 2rem;
+            margin-bottom: 3rem;
+
+
+            &__description__title {
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                letter-spacing: -0.045rem;
+                text-align: center;
+            }
+
+            &__description__p {
+                color: #777777;
+                font-size: 0.875rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                text-align: center;
+                margin-top: 1rem;
+
+            }
+
+            &__price {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+
+                &__number {
+
+                    font-weight: 700;
+                    line-height: 1.0881rem;
+                    color: #BEAD8E;
+                    font-size: 1.3rem;
+                }
+
+                &__btn {
+                    cursor: pointer;
+                    background-color: white;
+                    border: 0;
+                    color: #BDBDBD;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 1.0875rem;
+                }
+            }
+        }
+    }
+
+    &__pagination{
+        text-align: center;
+    }
+}

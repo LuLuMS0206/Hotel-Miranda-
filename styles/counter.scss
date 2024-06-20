@@ -1,0 +1,56 @@
+.counter {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+
+    &__text__title {
+
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 0.9519rem;
+        letter-spacing: 0.175rem;
+        color: #777777;
+
+
+    }
+
+
+    &__text__subtitle {
+        margin-top: 2rem;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+
+
+    }
+
+    &__facts__fact {
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-between;
+
+        &__text__number {
+            font-size: 3.75rem;
+            font-weight: 400;
+            line-height: 3.75rem;
+            letter-spacing: -0.1125rem;
+
+        }
+
+        &__text__p {
+            color: #777777;
+
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1rem;
+
+
+        }
+    }
+
+    &__img__room{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+}
