@@ -796,6 +796,7 @@
 }
 .roomsPage__cards__info {
   padding: 0rem 2rem;
+  margin-bottom: 3rem;
 }
 .roomsPage__cards__info__description__title {
   font-size: 1.5rem;
@@ -832,6 +833,9 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.0875rem;
+}
+.roomsPage__pagination {
+  text-align: center;
 }
 
 html, * {
