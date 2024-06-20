@@ -64,5 +64,53 @@
             translate: 0% -67%;
             box-shadow: 0px 2px 10px -5px black;
         }
+
+        &__info {
+            padding: 0rem 2rem;
+
+            &__description__title {
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                letter-spacing: -0.045rem;
+                text-align: center;
+            }
+
+            &__description__p {
+                color: #777777;
+                font-size: 0.875rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+                text-align: center;
+                margin-top: 1rem;
+
+            }
+
+            &__price {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+
+                &__number {
+
+                    font-weight: 700;
+                    line-height: 1.0881rem;
+                    color: #BEAD8E;
+                    font-size: 1.3rem;
+                }
+
+                &__btn {
+                    cursor: pointer;
+                    background-color: white;
+                    border: 0;
+                    color: #BDBDBD;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    line-height: 1.0875rem;
+                }
+            }
+        }
     }
 }
