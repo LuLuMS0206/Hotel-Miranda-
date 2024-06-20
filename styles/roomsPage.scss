@@ -24,6 +24,7 @@
             width: 90%;
 
         }
+
     }
 
 
@@ -67,6 +68,8 @@
 
         &__info {
             padding: 0rem 2rem;
+            margin-bottom: 3rem;
+
 
             &__description__title {
                 font-size: 1.5rem;
@@ -112,5 +115,9 @@
                 }
             }
         }
+    }
+
+    &__pagination{
+        text-align: center;
     }
 }
