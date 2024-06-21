@@ -945,6 +945,46 @@
 .roomsDetail__amenities__info__ul__li__p {
   margin-left: 0.8rem;
 }
+.roomsDetail__founder {
+  padding: 0rem 2rem;
+}
+.roomsDetail__founder__container {
+  text-align: center;
+  margin-top: 5rem;
+}
+.roomsDetail__founder__container__img__check {
+  transform: translate(216px, -142px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #BDAC8D;
+  color: white;
+}
+.roomsDetail__founder__container__name__title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -0.0562rem;
+}
+.roomsDetail__founder__container__name__subtitle {
+  color: #BDAC8D;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+}
+.roomsDetail__founder__container__name__p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
 
 html, * {
   box-sizing: border-box;
