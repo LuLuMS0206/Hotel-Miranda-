@@ -923,13 +923,6 @@
   font-weight: 400;
   line-height: 1.875rem;
 }
-.roomsDetail__amenities__apart {
-  background-color: #f1f1f1;
-  height: 0.0625rem;
-  border: 0;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-}
 .roomsDetail__amenities__info {
   display: flex;
   justify-content: space-around;
@@ -984,6 +977,29 @@
   font-weight: 400;
   line-height: 1.5rem;
   color: #777777;
+}
+.roomsDetail__cancellation {
+  padding: 0rem 1.5rem;
+  margin-top: 5rem;
+}
+.roomsDetail__cancellation__title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+.roomsDetail__cancellation__p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #777777;
+}
+
+.apart {
+  background-color: #f1f1f1;
+  height: 0.0625rem;
+  border: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 html, * {
