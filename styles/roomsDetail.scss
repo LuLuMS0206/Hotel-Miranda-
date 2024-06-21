@@ -79,6 +79,57 @@
     }
 
 
+    &__text {
+        margin-top: 3rem;
+        padding: 0rem 1.5rem;
 
+        &__p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            color: #777777;
+        }
 
-}
+    }
+
+    &__amenities {
+        padding: 0rem 1.5rem;
+        margin-top: 2rem;
+
+        &__title {
+            font-size: 1.875rem;
+            font-weight: 400;
+            line-height: 1.875rem;
+
+        }
+
+        &__apart {
+            background-color: #f1f1f1;
+            height: 0.0625rem;
+            border: 0;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__info {
+            display: flex;
+            justify-content: space-around;
+
+            &__ul {
+                list-style: none;
+
+                &__li{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 1rem;
+
+                    &__p{
+                        margin-left: 0.8rem;
+                    }
+                }
+
+                    
+                }
+            }
+        }
+    }
