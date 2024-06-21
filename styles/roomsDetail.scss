@@ -103,13 +103,7 @@
 
         }
 
-        &__apart {
-            background-color: #f1f1f1;
-            height: 0.0625rem;
-            border: 0;
-            margin-top: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
+
 
         &__info {
             display: flex;
@@ -142,7 +136,7 @@
 
             &__img {
 
-                
+
 
                 &__check {
                     transform: translate(216px, -142px);
@@ -193,5 +187,34 @@
         }
     }
 
+    &__cancellation {
+        padding: 0rem 1.5rem;
+        margin-top: 5rem;
 
+
+        &__title {
+            font-size: 1.875rem;
+            font-weight: 400;
+            line-height: 1.875rem;
+        }
+
+        &__p {
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            color: #777777;
+
+        }
+    }
+}
+
+
+
+
+.apart {
+    background-color: #f1f1f1;
+    height: 0.0625rem;
+    border: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
