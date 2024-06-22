@@ -19,6 +19,7 @@
                     font-weight: 400;
                     line-height: 1.5rem;
                 }
+
                 &__subtitle {
                     // width: 66%;
                     font-size: 0.875rem;
@@ -29,7 +30,7 @@
                     margin-top: 1rem;
 
                 }
-            
+
             }
         }
 
@@ -37,4 +38,53 @@
             transform: translate(135px, -83px);
         }
     }
+
+    &__form {
+        padding: 0rem 1.5rem;
+        margin-top: 3rem;
+
+        &__container {
+            width: 100%;
+            position: relative;
+            background-color: #F8F8F8;
+            margin-bottom: 1em;
+
+            &__img {
+                position: absolute;
+                width: 1em;
+                height: 1em;
+                top: 1em;
+                margin-left: 1rem;
+            }
+            
+
+            &__input{
+                background-color: transparent;
+                color: #777;
+                width: 100%;
+                padding: 1em 2em;
+                border: none;
+                font-family: "Roboto";
+                font-size: 1em;
+                font-weight: 400;
+                line-height: 1.171875em;
+                margin-left: 1rem;
+
+                &--textarea{
+                    height: 8rem;
+                }
+            }
+        }
+
+        &__btn{
+            text-align: center;
+        }
+    }
+}
+
+
+
+.map {
+    width: 100%;
+    padding: 0rem 1.5rem;
 }
