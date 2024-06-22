@@ -993,6 +993,15 @@
   line-height: 1.5rem;
   color: #777777;
 }
+.roomsDetail__related {
+  margin-top: 3rem;
+  padding: 0rem 1.5rem;
+}
+.roomsDetail__related__title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
 
 .apart {
   background-color: #f1f1f1;
