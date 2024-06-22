@@ -1011,6 +1011,35 @@
   margin-bottom: 1.5rem;
 }
 
+.contact__info {
+  padding: 0rem 1.5rem;
+  margin-top: 2rem;
+}
+.contact__info__card {
+  display: flex;
+  align-items: center;
+}
+.contact__info__card__titles {
+  margin-left: 2rem;
+  z-index: 999;
+}
+.contact__info__card__titles__title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.contact__info__card__titles__subtitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0px;
+  color: #777777;
+  margin-top: 1rem;
+}
+.contact__info__0 {
+  transform: translate(135px, -83px);
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
