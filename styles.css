@@ -207,6 +207,12 @@
 .rooms {
   text-align: center;
 }
+.rooms__container {
+  padding: 0rem 1rem;
+}
+.rooms__container__doupleRoom {
+  width: 100%;
+}
 .rooms__titles--title {
   font-weight: 700;
   font-size: 14px;
@@ -238,7 +244,7 @@
   width: auto;
   padding: 0.5rem;
   margin: 0 3rem 0 3rem;
-  translate: 0% 50%;
+  translate: 0% -18%;
   box-shadow: 0px 2px 10px -5px black;
 }
 .rooms__container--info--description--title {
@@ -275,7 +281,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 1rem 2rem 1rem;
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 .introVideo__text--intro {
   font-weight: 700;
@@ -1165,7 +1171,8 @@
 .swiper-arrows .swiper-wrapper {
   height: 60%;
 }
-.swiper-arrows .swiper-button-next, .swiper-arrows .swiper-button-prev {
+.swiper-arrows .swiper-button-next,
+.swiper-arrows .swiper-button-prev {
   top: 90%;
   width: 3em;
   height: 3em;
@@ -1173,14 +1180,41 @@
   background-color: #BDAC8D;
   font-weight: 700;
 }
-.swiper-arrows .swiper-button-next--disable, .swiper-arrows .swiper-button-prev--disable {
+.swiper-arrows .swiper-button-next--disable,
+.swiper-arrows .swiper-button-prev--disable {
   transform: translate(268px, 0px);
   background-color: #F8F8F8;
   color: #111;
   font-weight: 700;
 }
+.swiper-arrows .swiper-button-next--disable:hover,
+.swiper-arrows .swiper-button-prev--disable:hover {
+  color: #FFF;
+  background-color: #BDAC8D;
+}
+.swiper-arrows .swiper-button-next--menu:hover,
+.swiper-arrows .swiper-button-prev--menu:hover {
+  background-color: #F8F8F8;
+  color: #111;
+}
 .swiper-arrows .swiper-button-prev::after,
 .swiper-arrows .swiper-button-next::after {
+  font-size: 1em;
+}
+
+.swiper-arrowFacilities .swiper-wrapper {
+  height: 50%;
+}
+.swiper-arrowFacilities .swiper-button-prev--izq, .swiper-arrowFacilities .swiper-button-prev--der {
+  top: 9rem;
+  width: 3em;
+  height: 3em;
+  color: #FFF;
+  background-color: #BDAC8D;
+  font-weight: 700;
+}
+.swiper-arrowFacilities .swiper-button-prev::after,
+.swiper-arrowFacilities .swiper-button-next::after {
   font-size: 1em;
 }
 
