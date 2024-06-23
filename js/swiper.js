@@ -9,6 +9,17 @@ const swiperPag = new Swiper('.swiper-pag', {
     },
 });
 
+const swiperPagAbout = new Swiper('.swiper-pag-about', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+});
+
 const swiperArrow = new Swiper('.swiper-arrow', {
     // Optional parameters
     direction: 'horizontal',
