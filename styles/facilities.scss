@@ -17,7 +17,7 @@
     &--subtitle{
         font-weight: 400;
     font-size: 3.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     color: #222222;
     text-align: center;
     }
@@ -26,8 +26,18 @@
 
 .facilities__container{
 
-    &--icons--01{
-        transform: translate(128px, -63px);
+    &--icons{
+        display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    }
+
+    &--icons--number{
+        color: rgba(34, 34, 34, 0.0392156863);
+        font-size: 7.5em;
+        font-weight: 700;
+        margin-bottom: 2rem;
     }
 }
 
@@ -45,7 +55,7 @@
         font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.5rem;
-    color: #222222;
+    color:#777777;
     width: 72%;
     margin-bottom: 2rem;
 
