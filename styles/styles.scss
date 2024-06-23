@@ -16,6 +16,9 @@
 @import "roomsDetail.scss";
 @import "offers.scss";
 
+@import "contact.scss";
+
+
 
 html, * { 
     box-sizing: border-box; 
@@ -46,6 +49,10 @@ body {
     font-weight: 600;
     font-size: 14px;
     padding: 0.9rem 2.5rem;
+
+    &--width{
+        width: 60%;
+    }
 }
 
 .button--black{
