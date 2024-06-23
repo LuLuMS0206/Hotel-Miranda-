@@ -1071,7 +1071,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
-=======
+}
+
 .contact__info {
   padding: 0rem 1.5rem;
   margin-top: 2rem;
@@ -1139,7 +1140,6 @@
 .map {
   width: 100%;
   padding: 0rem 1.5rem;
-
 }
 
 html, * {
