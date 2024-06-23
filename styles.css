@@ -48,6 +48,9 @@
 .header__nav__menuDesplegable {
   display: none;
 }
+.header__nav__menuDesplegable__list__item {
+  text-decoration: none;
+}
 
 .header__nav__menuDesplegable--active {
   display: block;
@@ -56,6 +59,21 @@
 .flex {
   display: flex;
   align-items: center;
+}
+
+.header__nav__menuDesplegable__item {
+  padding: 1rem 1rem;
+}
+
+.header__nav__menuDesplegable__link {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+  font-family: "Archivo", sans-serif;
+}
+
+.contents {
+  display: contents;
 }
 
 .main__container {
