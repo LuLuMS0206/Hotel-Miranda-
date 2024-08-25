@@ -1,0 +1,70 @@
+.contact__info {
+  padding: 0rem 1.5rem;
+  margin-top: 2rem;
+}
+.contact__info__card {
+  display: flex;
+  align-items: center;
+}
+.contact__info__card__titles {
+  margin-left: 2rem;
+  z-index: 999;
+}
+.contact__info__card__titles__title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.contact__info__card__titles__subtitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0px;
+  color: #777777;
+  margin-top: 1rem;
+}
+.contact__info__0 {
+  transform: translate(135px, -83px);
+}
+.contact__form {
+  padding: 0rem 1.5rem;
+  margin-top: 3rem;
+}
+.contact__form__container {
+  width: 100%;
+  position: relative;
+  background-color: #F8F8F8;
+  margin-bottom: 1em;
+}
+.contact__form__container__img {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 1em;
+  margin-left: 1rem;
+}
+.contact__form__container__input {
+  background-color: transparent;
+  color: #777;
+  width: 100%;
+  padding: 1em 2em;
+  border: none;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.171875em;
+  margin-left: 1rem;
+}
+.contact__form__container__input--textarea {
+  height: 8rem;
+}
+.contact__form__btn {
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  padding: 0rem 1.5rem;
+}
+
+/*# sourceMappingURL=contact.css.map */

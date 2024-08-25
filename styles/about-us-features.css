@@ -1,0 +1,67 @@
+.about__us__features {
+  padding: 2em 1.25em;
+}
+.about__us__features--img {
+  width: 100%;
+}
+.about__us__features--feature {
+  text-align: center;
+  margin-top: 2rem;
+}
+.about__us__features--feature--img {
+  position: absolute;
+  z-index: -1;
+  translate: -42px 4px;
+}
+.about__us__features--feature--title {
+  margin-bottom: 0.7em;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.about__us__features--feature--text {
+  margin: 0 auto;
+  width: 77%;
+  color: #111;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  letter-spacing: 0rem;
+  text-align: center;
+}
+.about__us__features--imgLuxury {
+  width: 100%;
+  margin-top: 4rem;
+}
+.about__us__features--luxury--container {
+  background-color: #111;
+  text-align: center;
+  padding: 0rem 0rem 3rem 0rem;
+}
+.about__us__features--luxury--container--icon {
+  margin-top: 3rem;
+}
+.about__us__features--luxury--container--title {
+  margin-bottom: 0.7em;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.9rem;
+  letter-spacing: -0.1rem;
+  color: white;
+  margin-top: 2rem;
+}
+.about__us__features--luxury--container--text {
+  margin: 0 auto;
+  width: 77%;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  letter-spacing: 0rem;
+  color: white;
+}
+
+/*# sourceMappingURL=about-us-features.css.map */

@@ -64,3 +64,9 @@ body {
     font-size: 14px;
     padding: 0.9rem 2.5rem;
 }
+
+@media (min-width: 710px) {
+    .button--black {
+        margin-left: 2rem; 
+    }
+}

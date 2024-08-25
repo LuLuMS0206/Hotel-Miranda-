@@ -1,0 +1,63 @@
+.offers__roomsCards {
+  padding: 0rem 1rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+  margin-bottom: 3rem;
+}
+.offers__roomsCards__btn {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.offers__roomsCards__imgHotel {
+  width: 100%;
+}
+.offers__roomsCards__price {
+  display: inline-grid;
+  transform: translate(250px, -73px);
+}
+.offers__roomsCards__price__img {
+  margin-top: 1rem;
+}
+.offers__roomsCards__info {
+  padding: 0rem 1rem;
+}
+.offers__roomsCards__info__titles__title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.offers__roomsCards__info__titles__subtitle {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.09rem;
+  width: 70%;
+  margin-top: 1rem;
+}
+.offers__roomsCards__info__p {
+  color: #777777;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+  width: 76%;
+}
+.offers__roomsCards__info__ul {
+  list-style: none;
+}
+.offers__roomsCards__info__ul__li {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.offers__roomsCards__info__ul__li__p {
+  margin-left: 0.8rem;
+}
+.offers__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=offers.css.map */

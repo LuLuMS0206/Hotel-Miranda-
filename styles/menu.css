@@ -1,0 +1,67 @@
+.menu {
+  margin-top: 4rem;
+}
+.menu__img {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__text {
+  padding: 0rem 1rem;
+}
+.menu__title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #777777;
+  margin-bottom: 2rem;
+  letter-spacing: 0.175rem;
+}
+.menu__subtitle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #222222;
+}
+.menu__container {
+  padding: 0rem 1rem;
+}
+.menu__container__menus {
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+.menu__container__menus__img {
+  width: 45%;
+  height: 125px;
+}
+.menu__container__menus__text {
+  margin-left: 1.5rem;
+}
+.menu__container__menus__text__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+}
+.menu__container__menus__text__p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #222222;
+  width: 85%;
+  line-height: 24px;
+}
+.menu__icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu__icons__left {
+  margin-bottom: 1.5rem;
+}
+.menu__img__container {
+  padding: 0rem 1rem;
+}
+.menu__img__container__cheese {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=menu.css.map */

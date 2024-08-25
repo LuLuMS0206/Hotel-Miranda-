@@ -24,3 +24,12 @@
     color: #999999;
     }
 }
+
+@media (min-width: 700px) {
+    .iconFeatures {
+        &__container {
+            display: flex;
+    justify-content: space-between;
+        }
+    }
+}

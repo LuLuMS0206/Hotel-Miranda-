@@ -1,0 +1,50 @@
+.facilities {
+  padding: 0rem 2rem;
+}
+
+.facilities__titles--title {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #777777;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.175rem;
+  margin-top: 4rem;
+}
+.facilities__titles--subtitle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #222222;
+  text-align: center;
+}
+
+.facilities__container--icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.facilities__container--icons--number {
+  color: rgba(34, 34, 34, 0.0392156863);
+  font-size: 7.5em;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.facilities__container--text--title {
+  font-weight: 400;
+  font-size: 1.875rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.facilities__container--text--p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #777777;
+  width: 72%;
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=facilities.css.map */

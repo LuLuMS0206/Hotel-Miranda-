@@ -1,0 +1,32 @@
+.about__us {
+  background: #F9F9F9;
+  margin-top: 4rem;
+  padding: 2em 1.25em;
+}
+.about__us--title {
+  margin-bottom: 1.5em;
+  color: #777;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  letter-spacing: 0.15rem;
+}
+
+.about__us--container--title {
+  margin-bottom: 0.2em;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  letter-spacing: -0.1rem;
+}
+.about__us--container--text {
+  padding: 0em 0.5em;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+  letter-spacing: 0rem;
+  color: #777;
+}
+
+/*# sourceMappingURL=about-us.css.map */

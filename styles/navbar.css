@@ -1,0 +1,79 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: 99;
+  padding: 0.8rem;
+  transition: transform 0.25s ease-in-out;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+}
+.header__nav {
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+.header__nav__logo--container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 1rem;
+}
+.header__nav__logo--container--text {
+  margin-left: 0.5rem;
+}
+.header__nav__logo--container--text--title {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.header__nav__logo--container--text--subtitle {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.header__nav__logo--container--a--text--container {
+  font-size: 0.8rem;
+}
+.header__nav__logo--container--a--img {
+  box-shadow: -6px 2px 22px -11px rgba(0, 0, 0, 0.75);
+  width: 18%;
+}
+.header__nav--icons {
+  display: flex;
+}
+.header__nav--icons--search {
+  margin-left: 1rem;
+}
+
+.header__nav__menuDesplegable {
+  display: none;
+}
+.header__nav__menuDesplegable__list__item {
+  text-decoration: none;
+}
+
+.header__nav__menuDesplegable--active {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav__menuDesplegable__item {
+  padding: 1rem 1rem;
+}
+
+.header__nav__menuDesplegable__link {
+  text-decoration: none;
+  color: #111111;
+  font-weight: 600;
+  font-family: "Archivo", sans-serif;
+}
+
+.contents {
+  display: contents;
+}
+
+/*# sourceMappingURL=navbar.css.map */

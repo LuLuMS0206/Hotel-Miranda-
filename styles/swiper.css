@@ -1,0 +1,73 @@
+.swiper__pagination {
+  padding: 1rem;
+}
+.swiper__pagination .swiper-wrapper {
+  height: 38%;
+}
+.swiper__pagination .swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+.swiper__pagination--facilities {
+  padding: 0rem;
+}
+
+.swiper-arrows .swiper-wrapper {
+  height: 60%;
+}
+.swiper-arrows .swiper-button-next,
+.swiper-arrows .swiper-button-prev {
+  top: 90%;
+  width: 3em;
+  height: 3em;
+  color: #FFF;
+  background-color: #BDAC8D;
+  font-weight: 700;
+}
+.swiper-arrows .swiper-button-next--disable,
+.swiper-arrows .swiper-button-prev--disable {
+  transform: translate(268px, 0px);
+  background-color: #F8F8F8;
+  color: #111;
+  font-weight: 700;
+}
+.swiper-arrows .swiper-button-next--disable:hover,
+.swiper-arrows .swiper-button-prev--disable:hover {
+  color: #FFF;
+  background-color: #BDAC8D;
+}
+.swiper-arrows .swiper-button-next--menu:hover,
+.swiper-arrows .swiper-button-prev--menu:hover {
+  background-color: #F8F8F8;
+  color: #111;
+}
+.swiper-arrows .swiper-button-prev::after,
+.swiper-arrows .swiper-button-next::after {
+  font-size: 1em;
+}
+
+.swiper-arrowFacilities .swiper-wrapper {
+  height: 50%;
+}
+.swiper-arrowFacilities .swiper-button-prev--izq, .swiper-arrowFacilities .swiper-button-prev--der {
+  top: 9rem;
+  width: 3em;
+  height: 3em;
+  color: #FFF;
+  background-color: #BDAC8D;
+  font-weight: 700;
+}
+.swiper-arrowFacilities .swiper-button-prev::after,
+.swiper-arrowFacilities .swiper-button-next::after {
+  font-size: 1em;
+}
+
+.swiper-arrowTests--background {
+  padding: 3rem 2rem;
+  background: #222222;
+}
+
+.swiper-pag-abouts .swiper-pagination-bullet-active {
+  background: #BEAD8E;
+}
+
+/*# sourceMappingURL=swiper.css.map */
