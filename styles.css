@@ -1035,6 +1035,11 @@
     gap: 20px;
   }
 }
+@media (min-width: 700px) {
+  .roomsPage__grid {
+    padding: 0rem 14rem;
+  }
+}
 .roomsDetail__info {
   padding: 0rem 1.5rem;
 }
@@ -1209,7 +1214,7 @@
 }
 
 .offers__roomsCards {
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
   box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
   margin-bottom: 3rem;
 }
@@ -1222,7 +1227,7 @@
 }
 .offers__roomsCards__price {
   display: inline-grid;
-  transform: translate(250px, -73px);
+  transform: translate(206px, -73px);
 }
 .offers__roomsCards__price__img {
   margin-top: 1rem;
@@ -1270,6 +1275,62 @@
   margin-top: 1rem;
 }
 
+@media (min-width: 400px) {
+  .offers__roomsCards {
+    padding: 0rem 3rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(218px, -73px);
+  }
+}
+@media (min-width: 500px) {
+  .offers__roomsCards {
+    padding: 0rem 5rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(221px, -73px);
+  }
+}
+@media (min-width: 600px) {
+  .offers__roomsCards {
+    padding: 0rem 6rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(300px, -73px);
+  }
+}
+@media (min-width: 700px) {
+  .offers__roomsCards {
+    padding: 0rem 8rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(330px, -73px);
+  }
+}
+@media (min-width: 800px) {
+  .offers__roomsCards {
+    padding: 0rem 8rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(400px, -73px);
+  }
+}
+@media (min-width: 900px) {
+  .offers__roomsCards {
+    padding: 0rem 10rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(430px, -73px);
+  }
+}
+@media (min-width: 1000px) {
+  .offers__roomsCards {
+    padding: 0rem 10rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(500px, -73px);
+  }
+}
 .contact__info {
   padding: 0rem 1.5rem;
   margin-top: 2rem;
