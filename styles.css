@@ -126,11 +126,17 @@
 }
 
 @media (min-width: 645px) {
+  .main__form {
+    padding: 2rem 6.5rem 2rem 6.5rem;
+  }
+  .main__container {
+    padding: 4rem 6.5rem;
+  }
   .main__container--text {
     margin-top: 3rem;
   }
 }
-@media (min-width: 645px) and (min-width: 870px) {
+@media (min-width: 645px) and (min-width: 700px) {
   .main__container--text {
     margin-top: 6rem;
   }
@@ -143,6 +149,11 @@
 @media (min-width: 645px) and (min-width: 1200px) {
   .main__container--text {
     margin-top: 10rem;
+  }
+}
+@media (min-width: 645px) and (min-width: 1400px) {
+  .main__container--text {
+    margin-top: 16rem;
   }
 }
 @media (min-width: 460px) {
@@ -693,6 +704,46 @@
   letter-spacing: 0.15rem;
 }
 
+@media (min-width: 710px) {
+  .about__squares {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about__video {
+    padding: 0rem 3rem;
+    width: 40rem;
+  }
+}
+@media (min-width: 1000px) {
+  .about__squares {
+    padding: 0rem 12rem;
+  }
+}
+@media (min-width: 645px) {
+  .about__content__title {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 645px) and (min-width: 700px) {
+  .about__content__title {
+    margin-top: 6rem;
+  }
+}
+@media (min-width: 645px) and (min-width: 1000px) {
+  .about__content__title {
+    margin-top: 8rem;
+  }
+}
+@media (min-width: 645px) and (min-width: 1200px) {
+  .about__content__title {
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 645px) and (min-width: 1400px) {
+  .about__content__title {
+    margin-top: 16rem;
+  }
+}
 .restaurant {
   margin: 2rem 1.5rem 4rem 1.5rem;
   box-shadow: 0px 5px 15px -15px black;
@@ -734,6 +785,26 @@
   box-shadow: 1px 15px 43px -6px rgb(190, 173, 142);
 }
 
+@media (min-width: 700px) {
+  .restaurant {
+    display: flex;
+    margin: 2rem 6.5rem 4rem 6.5rem;
+  }
+  .restaurant__img {
+    align-items: center;
+    display: flex;
+  }
+  .restaurant__img__container {
+    width: 95%;
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 100px) {
+  .restaurant {
+    display: flex;
+    margin: 2rem 15rem 4rem 15rem;
+  }
+}
 .facilitiesAbout {
   background-color: #222222;
   padding: 3rem 1.5rem 3rem 1.5rem;
@@ -824,10 +895,27 @@
   margin-top: 3rem;
 }
 
+@media (min-width: 710px) {
+  .counter {
+    padding: 1rem 6rem;
+  }
+  .counter__img__room {
+    width: 55%;
+  }
+  .counter__facts {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1000px) {
+  .counter {
+    padding: 1rem 15rem;
+  }
+}
 .roomsPage__content {
   background-color: #333333;
   padding: 2rem 1rem 5rem 1rem;
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
 }
 .roomsPage__content__title {
   font-weight: 700;
@@ -940,6 +1028,13 @@
   text-align: center;
 }
 
+@media (min-width: 700px) {
+  .roomsPage__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
 .roomsDetail__info {
   padding: 0rem 1.5rem;
 }
@@ -1258,11 +1353,11 @@
 }
 
 .swiper-arrows .swiper-wrapper {
-  height: 60%;
+  height: 80%;
 }
 .swiper-arrows .swiper-button-next,
 .swiper-arrows .swiper-button-prev {
-  top: 90%;
+  top: 96%;
   width: 3em;
   height: 3em;
   color: #FFF;

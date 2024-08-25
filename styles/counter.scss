@@ -54,3 +54,25 @@
     }
 
 }
+
+@media (min-width: 710px) {
+
+    .counter{
+        padding: 1rem 6rem;
+
+        &__img__room{
+            width: 55%;
+        }
+    }
+    .counter__facts {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .counter{
+        padding: 1rem 15rem;
+    }
+}

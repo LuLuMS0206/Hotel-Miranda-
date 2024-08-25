@@ -53,14 +53,21 @@
 }
 
 @media (min-width: 645px) {
+    .main__form{
+        padding: 2rem 6.5rem 2rem 6.5rem;
+    }
     .main__container {
+        padding: 4rem 6.5rem;
         &--text {
             margin-top: 3rem; 
         }
     }
 
-    @media (min-width: 870px) {
+    
+
+    @media (min-width: 700px) {
         .main__container {
+            
             &--text {
                 margin-top: 6rem; 
             }
@@ -79,6 +86,14 @@
         .main__container {
             &--text {
                 margin-top: 10rem; 
+            }
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .main__container {
+            &--text {
+                margin-top: 16rem; 
             }
         }
     }
