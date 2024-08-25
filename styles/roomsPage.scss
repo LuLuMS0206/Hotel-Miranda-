@@ -163,3 +163,49 @@
         padding: 0rem 14rem;
     }
 }
+
+
+
+@media (min-width: 645px) {
+    .roomsPage {
+        &__content{
+            padding: 2rem 6.5rem 5rem 6.5rem;
+        }
+        &__content__title {
+            margin-top: 3rem; 
+        }
+    }
+
+    @media (min-width: 700px) {
+        .roomsPage {
+            
+            &__content__title {
+                margin-top: 6rem; 
+            }
+        }
+    }
+
+    @media (min-width: 1000px) {
+        .roomsPage  {
+            &__content__title {
+                margin-top: 8rem; 
+            }
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .roomsPage  {
+            &__content__title{
+                margin-top: 10rem; 
+            }
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .roomsPage {
+            &__content__title {
+                margin-top: 16rem; 
+            }
+        }
+    }
+}

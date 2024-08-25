@@ -230,3 +230,16 @@
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
 }
+
+
+@media (min-width: 850px) {
+    .roomsDetail__flex {
+        display: flex;
+        padding: 0rem 6rem;
+    }
+
+    .roomsDetail__text__p {
+        width: 80%;
+        padding: 0rem 6rem;
+    }
+}
