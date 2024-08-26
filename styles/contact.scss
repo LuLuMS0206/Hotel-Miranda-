@@ -83,6 +83,31 @@
 }
 
 
+@media (min-width: 1000px) {
+    .contact__form {
+        padding: 0rem 20.5rem;
+    }
+
+    .contact__form__group{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media (min-width: 1300px) {
+    .contact__form {
+        padding: 0rem 35rem;
+    }
+
+    .contact__form__group{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
 
 .map {
     width: 100%;
