@@ -85,12 +85,23 @@
 
 @media (min-width: 1000px) {
     .contact__form {
-        padding: 0rem 20.5rem;
+        padding: 0rem 14.5rem;
     }
 
     .contact__form__group{
         display: flex;
         justify-content: space-between;
+    }
+
+
+    .contact__info {
+        // padding: 0rem 0rem;
+        justify-content: space-evenly;
+        display: flex;
+
+        &__0{
+            width: 8rem;
+        }
     }
 
 }
@@ -106,10 +117,16 @@
         justify-content: space-between;
     }
 
+    // .contact__map {
+    //     padding: 0rem 20rem;
+    // }
+
 }
 
 
-.map {
-    width: 100%;
-    padding: 0rem 1.5rem;
+@media (min-width: 500px) {
+    .contact__map {
+        display: flex;
+    justify-content: center;
+    }
 }

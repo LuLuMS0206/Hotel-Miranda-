@@ -102,3 +102,8 @@
         .swiper-arrowTests {
             padding: 0rem 20rem;
         }}
+
+        @media (min-width: 1400px) {
+            .swiper-arrowTests {
+                padding: 0rem 32rem;
+            }}
