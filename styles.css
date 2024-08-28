@@ -2,17 +2,36 @@
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: white;
+  background-color: #222222;
   z-index: 99;
-  padding: 0.8rem;
   transition: transform 0.25s ease-in-out;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
 }
+@media (max-width: 645px) {
+  .header {
+    background-color: white;
+  }
+}
 .header__nav {
   align-items: center;
-  background-color: #ffffff;
+  background-color: #222222;
   width: 100%;
   overflow: hidden;
+}
+@media (max-width: 645px) {
+  .header__nav {
+    background-color: white;
+  }
+}
+@media (min-width: 645px) {
+  .header__nav.mobile {
+    display: none;
+  }
+}
+@media (max-width: 645px) {
+  .header__nav.desktop {
+    display: none;
+  }
 }
 .header__nav__logo--container {
   display: flex;
@@ -76,11 +95,61 @@
   display: contents;
 }
 
+.header__nav.desktop {
+  overflow: initial;
+}
+.header__nav.desktop .header__nav-content {
+  max-width: 88.75rem;
+  background-color: #ffffff;
+  margin: 0 auto;
+  transform: translateY(30px);
+}
+.header__nav.desktop .space {
+  padding: 1rem;
+}
+.header__nav.desktop .header__nav__logo--container--a--img {
+  width: 5rem;
+  height: 5rem;
+  font-family: "Archivo", sans-serif;
+}
+.header__nav.desktop .header__nav__logo--container--text--title {
+  font-weight: 800;
+  font-size: 1.6rem;
+  font-family: "Archivo", sans-serif;
+}
+.header__nav.desktop .header__nav__logo--container--text--subtitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Archivo", sans-serif;
+}
+.header__nav.desktop .header__nav__menuDesplegable__list {
+  font-family: "Archivo", sans-serif;
+  list-style: none;
+  margin-left: 5rem;
+}
+.header__nav.desktop .header__nav__menuDesplegable__list li {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.header__nav.desktop .header__nav__menuDesplegable__list li a {
+  font-weight: 900;
+}
+.header__nav.desktop .header__nav--icons {
+  position: absolute;
+  right: 5rem;
+}
+.header__nav.desktop .icon {
+  border: 2px solid #858585;
+  padding: 0.5rem;
+}
+.header__nav.desktop .header__nav--icons--search {
+  margin-left: 0.8rem;
+}
+
 .main__container {
   background-color: #333333;
   color: #FFFFFF;
   padding: 4rem 1.5rem;
-  margin-top: 4rem;
 }
 .main__container--text {
   font-size: 0.8125rem;
