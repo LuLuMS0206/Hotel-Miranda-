@@ -79,10 +79,11 @@
     }
 
     .about__video {
-        // padding: 0rem 3rem;
-        width: 40rem;
-        display: flex;
-        justify-content: center;
+        padding: 0rem 12rem;
+
+        &__text{
+            padding: 0rem 30rem;
+        }
     }
 }
 

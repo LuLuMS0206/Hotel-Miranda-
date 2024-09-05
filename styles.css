@@ -588,14 +588,14 @@
   .menu__img__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
   }
   .menu__img__container__cheese {
-    width: 22rem;
+    width: 25rem;
   }
   .swiper__pagination__desktop {
     padding: 0rem 10rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
   }
 }
 .iconFeatures {
@@ -765,7 +765,7 @@
   .footer__copyright__desktop {
     display: flex;
     justify-content: space-between;
-    padding: 0rem 6rem;
+    padding: 0rem 12rem;
   }
 }
 .margin {
@@ -836,9 +836,10 @@
     justify-content: space-around;
   }
   .about__video {
-    width: 40rem;
-    display: flex;
-    justify-content: center;
+    padding: 0rem 12rem;
+  }
+  .about__video__text {
+    padding: 0rem 30rem;
   }
 }
 @media (min-width: 1000px) {
@@ -1430,6 +1431,9 @@
     width: 22rem;
     box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.2705882353);
   }
+  .roomsDetail__founder__container__img__check {
+    transform: translate(176px, -149px);
+  }
   .roomsDetail__cancellation {
     padding: 0rem 7rem;
   }
@@ -1558,6 +1562,14 @@
     transform: translate(500px, -73px);
   }
 }
+@media (min-width: 1400px) {
+  .offers__roomsCards {
+    padding: 0rem 25rem;
+  }
+  .offers__roomsCards__price {
+    transform: translate(780px, 17px);
+  }
+}
 .contact__info {
   padding: 0rem 1.5rem;
   margin-top: 2rem;
@@ -1634,9 +1646,6 @@
     justify-content: space-evenly;
     display: flex;
   }
-  .contact__info__0 {
-    width: 8rem;
-  }
 }
 @media (min-width: 1300px) {
   .contact__form {
@@ -1645,6 +1654,15 @@
   .contact__form__group {
     display: flex;
     justify-content: space-between;
+  }
+  .information__map {
+    width: 80%;
+  }
+  .contact__info__2 {
+    margin-right: 10rem;
+  }
+  .contact__info__3 {
+    margin-right: 8rem;
   }
 }
 @media (min-width: 500px) {
@@ -1736,6 +1754,9 @@
 @media (min-width: 1000px) {
   .swiper-arrowTests {
     padding: 0rem 15rem;
+  }
+  .swiper-arrowTests .swiper-button-prev--izq, .swiper-arrowTests .swiper-button-prev--der {
+    top: 15rem;
   }
 }
 @media (min-width: 1300px) {

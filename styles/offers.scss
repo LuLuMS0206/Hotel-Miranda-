@@ -172,3 +172,17 @@
         }
     }
 }
+
+
+
+@media (min-width: 1400px) {
+    .offers{
+        &__roomsCards{
+            padding: 0rem 25rem;
+
+            &__price{
+                transform: translate(780px, 17px);
+            }
+        }
+    }
+}

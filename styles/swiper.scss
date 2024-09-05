@@ -23,6 +23,7 @@
       display: none; 
       
     }
+
   }
 
 //****************
@@ -107,7 +108,13 @@
 @media (min-width: 1000px) {
     .swiper-arrowTests {
         padding: 0rem 15rem;
+
+        .swiper-button-prev--izq, .swiper-button-prev--der{
+            top: 15rem;
+        }
     }}
+
+
 
     @media (min-width: 1300px) {
         .swiper-arrowTests {

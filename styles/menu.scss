@@ -88,15 +88,15 @@
         .menu__img__container {
         display: grid; 
         grid-template-columns: repeat(3, 1fr); 
-        gap: 1.5rem; 
+        gap: 2rem; 
         }
 
         .menu__img__container__cheese {
-            width: 22rem;
+            width: 25rem;
         }
 
         .swiper__pagination__desktop{
             padding: 0rem 10rem;
-            margin-left: 3rem;
+            margin-left: 1.5rem;
         }
     }
