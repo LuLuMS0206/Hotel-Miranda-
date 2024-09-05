@@ -41,3 +41,14 @@
 
     }
 }
+
+@media (min-width: 1000px) {
+    .introVideo__flex{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .introVideo__text{
+        width: 40%;
+    }
+}
