@@ -72,7 +72,6 @@
 
     &__img__container{
         padding: 0rem 1rem;
-        // text-align: center;
 
         &__cheese{
             width: 100%;
@@ -83,3 +82,21 @@
     
     }
     
+
+
+    @media (min-width: 1000px) {
+        .menu__img__container {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 1.5rem; 
+        }
+
+        .menu__img__container__cheese {
+            width: 22rem;
+        }
+
+        .swiper__pagination__desktop{
+            padding: 0rem 10rem;
+            margin-left: 3rem;
+        }
+    }

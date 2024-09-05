@@ -14,6 +14,17 @@
     }
 }
 
+@media (min-width: 1000px) {
+    .swiper-wrapper {
+      display: none; 
+    }
+  
+    .swiper-pagination {
+      display: none; 
+      
+    }
+  }
+
 //****************
 
 .swiper-arrows {

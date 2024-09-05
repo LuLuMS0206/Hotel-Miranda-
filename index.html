@@ -563,24 +563,27 @@
 
         <!-- SLIDER PAGINATION -->
         <div class="swiper__pagination">
-            <div class="swiper swiper-pag menu__img__container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper ">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/cheese.webp" alt="">
+            <div class="swiper__pagination__desktop">
+                <div class="swiper swiper-pag menu__img__container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper ">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/cheese.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/marmalade.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/yogurr.jpg" alt="">
+                        </div>
+                        ...
                     </div>
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/marmalade.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/yogurr.jpg" alt="">
-                    </div>
-                    ...
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
             </div>
+            
         </div>
         <!-- END SLIDER PAGINATION -->
     </section>
@@ -712,8 +715,11 @@
         </div>
 
         <div class="footer__copyright">
-            <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
-            <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            <div class="footer__copyright__desktop">
+                <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+                <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            </div>
+            
         </div>
     </footer>
 

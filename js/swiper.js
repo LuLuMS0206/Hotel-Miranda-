@@ -1,13 +1,26 @@
 const swiperPag = new Swiper('.swiper-pag', {
-    // Optional parameters
+
     direction: 'horizontal',
     loop: false,
 
-    // If we need pagination
+
     pagination: {
         el: '.swiper-pagination',
+        clickable: true, 
+    },
+
+    breakpoints: {
+        1000: {
+            slidesPerView: 3, 
+            enabled: false,    
+        },
+        0: {
+            slidesPerView: 1,  
+            enabled: true,     
+        },
     },
 });
+
 
 const swiperPagAbout = new Swiper('.swiper-pag-about', {
     // Optional parameters

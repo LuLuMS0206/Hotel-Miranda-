@@ -323,72 +323,69 @@
     <!-- END SECTION FACILITIES -->
 
 
-    <!-- SECTION COUNTER -->
-    <section class="counter">
-        <div class="counter__text">
-            <p class="counter__text__title font--archivo">COUNTER</p>
-            <h3 class="counter__text__subtitle font--old">Some Fun Facts</h3>
+<!-- SECTION COUNTER -->
+<section class="counter">
+    <div class="counter__text">
+        <p class="counter__text__title font--archivo">COUNTER</p>
+        <h3 class="counter__text__subtitle font--old">Some Fun Facts</h3>
+    </div>
+
+    <div class="counter__facts">
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/person-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">8000</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Happy Users</p>
+            </div>
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
 
-        <div class="counter__facts">
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/person-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">8000</h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Happy Users</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/star-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">10M</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Reviews & Appriciate</p>
             </div>
-
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/star-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">10M </h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Reviews & Appriciate</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
-            </div>
-
-
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/world-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">100 </h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Country Coverage</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
-            </div>
-
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
 
-        
-
-        <!-- SLIDER PAGINATION -->
-        <div class="swiper__pagination__about swiper-pag-abouts">
-            <div class="swiper swiper-pag-about">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper ">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    ...
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/world-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">100</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Country Coverage</p>
             </div>
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
-        <!-- END SLIDER PAGINATION -->
+    </div>
 
-        
-    </section>
-    <!-- END SECTION COUNTER -->
+    <!-- SLIDER PAGINATION - SOLO MOVIL -->
+    <div class="swiper__pagination__about swiper-pag-abouts">
+        <div class="swiper swiper-pag-about">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- END SLIDER PAGINATION -->
+
+    <!-- IMAGENES - DESKTOP -->
+    <div class="counter__images">
+        <img class="counter__images__img" src="assets/imagenes/room-counter.jpg" alt="Room Image 1">
+        <img class="counter__images__img" src="assets/imagenes/room-counter.jpg" alt="Room Image 2">
+    </div>
+</section>
+<!-- END SECTION COUNTER -->
+
 
 
 
@@ -484,8 +481,11 @@
         </div>
 
         <div class="footer__copyright">
-            <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
-            <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            <div class="footer__copyright__desktop">
+                <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+                <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            </div>
+            
         </div>
     </footer>
 

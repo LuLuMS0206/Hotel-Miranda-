@@ -158,9 +158,10 @@
             width: 20rem;
         }
     
-        &__copyright{
+        &__copyright__desktop{
             display: flex;
             justify-content: space-between;
+            padding: 0rem 6rem;
         }
     }
 }
@@ -169,7 +170,3 @@
     margin-left: 2rem;
 }
 
-// .twitter {
-//     background-color: #777777;
-//     padding: 0.1rem;
-// }
