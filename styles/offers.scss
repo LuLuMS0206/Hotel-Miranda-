@@ -5,7 +5,7 @@
         margin-bottom: 3rem;
 
 
-        &__btn{
+        &__btn {
             margin-top: 1.5rem;
             margin-bottom: 2rem;
         }
@@ -25,6 +25,7 @@
 
         &__info {
             padding: 0rem 1rem;
+
             &__titles {
 
                 &__title {
@@ -33,7 +34,6 @@
                     line-height: 0.9519rem;
                     letter-spacing: 0.175rem;
                     color: #777777;
-
                 }
 
                 &__subtitle {
@@ -53,136 +53,120 @@
                 line-height: 1.5rem;
                 margin-top: 0.5rem;
                 width: 76%;
-
             }
 
-            &__ul{
+            &__ul {
                 list-style: none;
 
-                &__li{
+                &__li {
                     display: flex;
                     align-items: center;
                     margin-top: 1rem;
 
-                    &__p{
+                    &__p {
                         margin-left: 0.8rem;
                     }
                 }
-
             }
         }
     }
-    
 
-    &__flex{
+    &__flex {
         display: flex;
         justify-content: space-between;
         margin-top: 1rem;
     }
-}
 
 
-@media (min-width: 400px) {
-    .offers{
-        
 
-        &__roomsCards{
-            padding: 0rem 3rem;
 
-            &__price{
-                transform: translate(218px, -73px);
-            }
-        }
-    }
-}
-
-@media (min-width: 500px) {
-    .offers{
-
-        &__roomsCards{
+    @media (min-width: 500px) {
+        &__roomsCards {
             padding: 0rem 5rem;
-            &__price{
+
+            &__price {
                 transform: translate(221px, -73px);
             }
         }
     }
-}
 
-@media (min-width: 600px) {
-    .offers{
-        &__roomsCards{
+    @media (min-width: 600px) {
+        &__roomsCards {
             padding: 0rem 6rem;
 
-            &__price{
+            &__price {
                 transform: translate(300px, -73px);
             }
-    
         }
     }
-}
 
-
-@media (min-width: 700px) {
-    .offers{
-        &__roomsCards{
+    @media (min-width: 700px) {
+        &__roomsCards {
             padding: 0rem 8rem;
 
-            &__price{
+            &__price {
                 transform: translate(330px, -73px);
             }
         }
     }
-}
 
-
-@media (min-width: 800px) {
-    .offers{
-        &__roomsCards{
+    @media (min-width: 800px) {
+        &__roomsCards {
             padding: 0rem 8rem;
 
-            &__price{
+            &__price {
                 transform: translate(400px, -73px);
             }
         }
     }
-}
 
-@media (min-width: 900px) {
-    .offers{
-        &__roomsCards{
+    @media (min-width: 900px) {
+        &__roomsCards {
             padding: 0rem 10rem;
 
-            &__price{
+            &__price {
                 transform: translate(430px, -73px);
             }
         }
     }
-}
+
+    @media (min-width: 1000px) {
+        .offers {
+            &__roomsCards {
+                padding: 0rem 10rem;
+
+                &__price {
+                    transform: translate(500px, -73px);
+                }
+            }
+        }
+    }
 
 
 
-@media (min-width: 1000px) {
-    .offers{
-        &__roomsCards{
-            padding: 0rem 10rem;
+    @media (min-width: 1400px) {
 
-            &__price{
-                transform: translate(500px, -73px);
+        .offers {
+            &__roomsCards {
+                padding: 0rem 28rem;
+
+                &__price {
+                    transform: translate(350px, 17px);
+                }
             }
         }
     }
 }
 
+.roomsPage__cards__container {
+    display: none; 
 
+    @media (min-width: 1300px) {
+        display: flex;
+                justify-content: space-evenly;
 
-@media (min-width: 1400px) {
-    .offers{
-        &__roomsCards{
-            padding: 0rem 25rem;
-
-            &__price{
-                transform: translate(780px, 17px);
-            }
+        .roomsPage__cards {
+            width: 30%;
         }
     }
 }
