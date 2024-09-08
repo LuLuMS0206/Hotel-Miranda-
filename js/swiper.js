@@ -33,19 +33,24 @@ const swiperPagAbout = new Swiper('.swiper-pag-about', {
     },
 });
 
-const swiperArrow = new Swiper('.swiper-arrow', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+const swiper = new Swiper('.swiper-arrow', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+  
+    // Configuración para pantallas grandes
+    breakpoints: {
+      1000: {
+        slidesPerView: 2,  // Mostrar 2 slides en pantallas grandes
+        spaceBetween: 30,
+      }
     },
-
-});
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  
 
 const swiperArrowTest = new Swiper('.swiper-arrowFacilities', {
     // Optional parameters

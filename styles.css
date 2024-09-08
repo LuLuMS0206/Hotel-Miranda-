@@ -423,6 +423,11 @@
   color: #BEAD8E;
 }
 
+@media (min-width: 1200px) {
+  .rooms__container--info {
+    translate: 0% -100%;
+  }
+}
 .introVideo {
   background-color: #222222;
   display: flex;
@@ -594,8 +599,10 @@
     width: 25rem;
   }
   .swiper__pagination__desktop {
-    padding: 0rem 10rem;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
+  }
+  .menu {
+    padding: 0rem 7rem;
   }
 }
 .iconFeatures {
@@ -637,7 +644,7 @@
 }
 @media (min-width: 1200px) {
   .iconFeatures {
-    padding: 0rem 12rem;
+    padding: 0rem 11rem;
   }
 }
 .footer__background {
@@ -869,6 +876,9 @@
 @media (min-width: 645px) and (min-width: 1200px) {
   .about__content__title {
     margin-top: 10rem;
+  }
+  .swiper-pag-abouts {
+    display: none;
   }
 }
 @media (min-width: 645px) and (min-width: 1400px) {
@@ -1792,9 +1802,6 @@
     padding: 0rem 20rem;
   }
   .swiper--none {
-    display: none;
-  }
-  .swiper {
     display: none;
   }
 }
