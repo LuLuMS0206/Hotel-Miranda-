@@ -29,9 +29,10 @@
 <body>
 
 
-    <!-- NAVBAR -->
+
     <header class="header">
-        <nav class="header__nav">
+        <!-- NAVBAR MOBILE-->
+        <nav class="header__nav mobile">
             <div class="flex">
                 <div class='header__nav--container' id="OpenButtonMenu">
                     <span class="material-symbols-outlined">
@@ -74,8 +75,47 @@
                 </ul>
             </div>
         </nav>
+        <!-- END NAVBAR MOBILE-->
+
+        <!-- ********************************* -->
+
+        <!-- NAVBAR DESKTOP -->
+        <nav class="header__nav desktop">
+            <div class="header__nav-content flex">
+                <div class="space">
+                    <a href="./index.html" class="contents">
+                        <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG"
+                            alt="logo">
+                    </a>
+                </div>
+                <div class="header__nav__logo--container--text">
+                    <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
+                    <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
+                </div>
+                <ul class="header__nav__menuDesplegable__list flex">
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="about.html" class="header__nav__menuDesplegable__link font--archivo">About Us</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="rooms.html" class="header__nav__menuDesplegable__link font--archivo">Rooms</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="offers.html" class="header__nav__menuDesplegable__link font--archivo">Offers</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="contact.html" class="header__nav__menuDesplegable__link font--archivo">Contact</a>
+
+                    </li>
+                </ul>
+
+                <div class="header__nav--icons">
+                    <img class="icon" src="assets/imagenes/Vector.svg" alt="">
+                    <img class="icon header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- END NAVBAR DESKTOP -->
     </header>
-    <!-- END NAVBAR -->
 
 
 
@@ -105,18 +145,19 @@
                     <input class="main__form--input--container" id="arrival-date" type="date">
                 </div>
 
-                <div class="main__form--input font--roboto">
+                <div class="main__form--input left font--roboto">
                     <p class="main__form--input--text">Departure Date</p>
                     <input class="main__form--input--container" id="departure-date" type="date">
                 </div>
 
-                <button class="button--color font--archivo">CHECK AVAILABILITY</button>
+                <button class="button--color btn font--archivo">CHECK AVAILABILITY</button>
             </form>
         </div>
     </section>
     <!-- END SECTION MAIN -->
 
     <!-- SECTION ABOUT-US -->
+     <div class="sectionAbout">
     <section class="about__us">
         <p class="about__us--title font--archivo">ABOUT US</p>
         <div class="about__us--container">
@@ -133,24 +174,32 @@
 
     <!-- SECTION ABOUT US FEATURES -->
     <section class="about__us__features">
-        <img class="about__us__features--img" src="assets/imagenes/personal-hotel.jpg" alt="">
-        <div class="about__us__features--feature">
-            <img src="assets/imagenes/group-color.svg" alt="">
-            <img class="about__us__features--feature--img" src="assets/imagenes/group-white.svg" alt="">
-            <p class="about__us__features--feature--title font--old">Strong Team</p>
-            <p class="about__us__features--feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                do eiusmod tempor.</p>
+        <div class="about__us__features__employed">
+            <img class="about__us__features--img" src="assets/imagenes/personal-hotel.jpg" alt="">
+            <div class="about__us__features--feature">
+                <img src="assets/imagenes/group-color.svg" alt="">
+                <img class="about__us__features--feature--img" src="assets/imagenes/group-white.svg" alt="">
+                <p class="about__us__features--feature--title font--old">Strong Team</p>
+                <p class="about__us__features--feature--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed
+                    do eiusmod tempor.</p>
+            </div>
         </div>
 
-        <img class="about__us__features--imgLuxury" src="assets/imagenes/hotel-luxury.jpg" alt="">
-        <div class="about__us__features--luxury--container">
-            <img class="about__us__features--luxury--container--icon" src="assets/imagenes/calendar-luxury.svg" alt="">
-            <p class="about__us__features--luxury--container--title font--old">Luxury Room</p>
-            <p class="about__us__features--luxury--container--text font--roboto">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit, sed do eiusmod tempor.</p>
+        <div class="about__us__features__luxuryRoom">
+            <img class="about__us__features--imgLuxury" src="assets/imagenes/hotel-luxury.jpg" alt="">
+            <div class="about__us__features--luxury--container">
+                <img class="about__us__features--luxury--container--icon" src="assets/imagenes/calendar-luxury.svg"
+                    alt="">
+                <p class="about__us__features--luxury--container--title font--old">Luxury Room</p>
+                <p class="about__us__features--luxury--container--text font--roboto">Lorem ipsum dolor sit amet,
+                    consectetur
+                    adipisicing elit, sed do eiusmod tempor.</p>
+            </div>
         </div>
+
     </section>
-
+</div>
 
     <!-- END SECTION ABOUT US FEATURES -->
 
@@ -255,25 +304,27 @@
 
     <!-- SECTION INTRO VIDEO -->
     <section class="introVideo">
-        <div class="introVideo__text">
-            <p class="introVideo__text--intro font--archivo">INTRO VIDEO</p>
-            <h2 class="introVideo__text--title font--old">Meet With Our Luxury Place.</h2>
-            <p class="introVideo__text--p font--archivo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat you have to understand this.</p>
+        <div class="introVideo__flex">
+            <div class="introVideo__text">
+                <p class="introVideo__text--intro font--archivo">INTRO VIDEO</p>
+                <h2 class="introVideo__text--title font--old">Meet With Our Luxury Place.</h2>
+                <p class="introVideo__text--p font--archivo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat you have to understand this.</p>
+            </div>
+    
+            <div class="introVideo__container">
+                <iframe class="introVideo__container__video" height="315"
+                    src="https://www.youtube.com/embed/Bu3Doe45lcU?si=rIg7_7zQ_E1CZcPt&amp;clip=Ugkxow2nTVqo59DJkHr6u3XrlVG9q_gKldk3&amp;clipt=EKjDARj4yQQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video__video"></iframe>
+    
+                <button class="button--color">BOOK NOW</button>
+            </div>
         </div>
-
-        <div class="introVideo__container">
-
-            <iframe class="introVideo__container__video" height="315"
-                src="https://www.youtube.com/embed/Bu3Doe45lcU?si=rIg7_7zQ_E1CZcPt&amp;clip=Ugkxow2nTVqo59DJkHr6u3XrlVG9q_gKldk3&amp;clipt=EKjDARj4yQQ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video__video"></iframe>
-
-            <button class="button--color">BOOK NOW</button>
-        </div>
+       
 
     </section>
     <!-- END SECTION INTRO VIDEO -->
@@ -284,138 +335,179 @@
 
 
     <!-- SECTION FACILITIES -->
-    <section class="facilities">
-        <div class="facilities__titles">
-            <p class="facilities__titles--title font--archivo">Facilities</p>
-            <p class="facilities__titles--subtitle font--old">Core Features</p>
-        </div>
-        <!-- SLIDER PAGINATION -->
-        <div class="swiper__pagination  swiper__pagination--facilities">
-            <div class="swiper swiper-pag menu__img__container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper ">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon"
-                                    src="assets/imagenes/icon-facilities.svg" alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">01</h2>
-                            </div>
+<section class="facilities">
+    <div class="facilities__titles">
+        <p class="facilities__titles--title font--archivo">Facilities</p>
+        <p class="facilities__titles--subtitle font--old">Core Features</p>
+    </div>
 
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Have High Rating</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
+    <!-- SLIDER PAGINATION - Visible only on mobile -->
+    <div class="swiper__pagination swiper__pagination--facilities swiper-mobile">
+        <div class="swiper swiper-pag menu__img__container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/icon-facilities.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">01</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Have High Rating</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                         </div>
                     </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon" src="assets/imagenes/reloj.svg" alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">02</h2>
-                            </div>
-
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Quiet Hours</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon" src="assets/imagenes/locations.svg"
-                                    alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">03</h2>
-                            </div>
-
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Best Locations</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon" src="assets/imagenes/cancellation.svg"
-                                    alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">04</h2>
-                            </div>
-
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Free Cancellation</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon" src="assets/imagenes/payment.svg"
-                                    alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">05</h2>
-                            </div>
-
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Payment Options</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide">
-                        <div class="facilities__container">
-                            <div class="facilities__container--icons">
-                                <img class="facilities__container--icons--icon" src="assets/imagenes/special.svg"
-                                    alt="">
-                                <h2 class="facilities__container--icons--number font--archivo">06</h2>
-                            </div>
-
-                            <div class="facilities__container--text">
-                                <p class="facilities__container--text--title font--old">Special Offers</p>
-                                <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                    et dolore magna..</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/reloj.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">02</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Quiet Hours</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/locations.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">03</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Best Locations</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/cancellation.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">04</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Free Cancellation</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/payment.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">05</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Payment Options</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="facilities__container">
+                        <div class="facilities__container--icons">
+                            <img class="facilities__container--icons--icon" src="assets/imagenes/special.svg" alt="">
+                            <h2 class="facilities__container--icons--number font--archivo">06</h2>
+                        </div>
+                        <div class="facilities__container--text">
+                            <p class="facilities__container--text--title font--old">Special Offers</p>
+                            <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- Desktop Grid Version - Hidden on mobile -->
+    <div class="facilities-grid-container">
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/icon-facilities.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">01</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Have High Rating</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
             </div>
         </div>
-        <!-- END SLIDER PAGINATION -->
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/reloj.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">02</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Quiet Hours</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/locations.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">03</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Best Locations</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/cancellation.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">04</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Free Cancellation</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/payment.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">05</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Payment Options</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-grid-item">
+            <div class="facilities__container">
+                <div class="facilities__container--icons">
+                    <img class="facilities__container--icons--icon" src="assets/imagenes/special.svg" alt="">
+                    <h2 class="facilities__container--icons--number font--archivo">06</h2>
+                </div>
+                <div class="facilities__container--text">
+                    <p class="facilities__container--text--title font--old">Special Offers</p>
+                    <p class="facilities__container--text--p font--roboto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION FACILITIES -->
 
-
-    </section>
-    <!-- END SECTION FACILITIES -->
 
 
     <!-- SECTION MENU -->
@@ -513,24 +605,27 @@
 
         <!-- SLIDER PAGINATION -->
         <div class="swiper__pagination">
-            <div class="swiper swiper-pag menu__img__container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper ">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/cheese.webp" alt="">
+            <div class="swiper__pagination__desktop">
+                <div class="swiper swiper-pag menu__img__container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper ">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/cheese.webp" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/marmalade.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="menu__img__container__cheese" src="assets/imagenes/yogurr.jpg" alt="">
+                        </div>
+                        ...
                     </div>
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/marmalade.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="menu__img__container__cheese" src="assets/imagenes/yogurr.jpg" alt="">
-                    </div>
-                    ...
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
             </div>
+            
         </div>
         <!-- END SLIDER PAGINATION -->
     </section>
@@ -662,8 +757,11 @@
         </div>
 
         <div class="footer__copyright">
-            <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
-            <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            <div class="footer__copyright__desktop">
+                <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+                <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            </div>
+            
         </div>
     </footer>
 

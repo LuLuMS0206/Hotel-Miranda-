@@ -21,7 +21,6 @@
         line-height: 3.75rem;
         letter-spacing: -0.075rem;
         margin-top: 1.5rem;
-
     }
 
     &__container {
@@ -46,13 +45,47 @@
             margin-top: 2rem;
         }
 
-        &__icons__01{
-            transform: translate(117px, -50px);
+        &__icons__01 {
+            transform: translate(80px, -50px);
         }
     }
 
     &__img {
         text-align: center;
         margin-top: 2rem;
+    }
+}
+
+.facilitiesGrid {
+    display: none; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    padding: 2rem;
+}
+
+
+
+
+@media (max-width: 999px) {
+    .facilitiesGrid {
+        display: none; 
+    }
+
+    .swiper-facilities {
+        display: block; 
+    }
+}
+
+@media (min-width: 1000px) {
+    .facilitiesGrid {
+        display: grid; 
+    }
+
+    .swiper-facilities {
+        display: none; 
+    }
+
+    .facilitiesAbout__container__icons__01 {
+        transform: translate(180px, -50px);
     }
 }

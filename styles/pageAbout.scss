@@ -3,7 +3,7 @@
     &__content {
         background-color: #333333;
         padding: 2rem 1rem 5rem 1rem;
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
 
         &__title {
             font-weight: 700;
@@ -79,10 +79,11 @@
     }
 
     .about__video {
-        // padding: 0rem 3rem;
-        width: 40rem;
-        display: flex;
-        justify-content: center;
+        padding: 0rem 12rem;
+
+        &__text{
+            padding: 0rem 30rem;
+        }
     }
 }
 
@@ -98,7 +99,8 @@
 
 @media (min-width: 645px) {
     .about__content {
-        padding: 2rem 6.5rem 5rem 6.5rem;
+        padding: 1rem 6.5rem 5rem 6.5rem;
+        margin-top: 0rem;
         &__title {
             margin-top: 3rem; 
         }
@@ -115,6 +117,7 @@
 
     @media (min-width: 1000px) {
         .about__content  {
+
             &__title {
                 margin-top: 8rem; 
             }
@@ -126,6 +129,10 @@
             &__title {
                 margin-top: 10rem; 
             }
+        }
+
+        .swiper-pag-abouts{
+            display: none;
         }
     }
 

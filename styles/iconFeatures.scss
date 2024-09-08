@@ -27,9 +27,22 @@
 
 @media (min-width: 700px) {
     .iconFeatures {
+        padding: 0rem 6rem;
         &__container {
             display: flex;
     justify-content: space-between;
         }
+    }
+}
+
+@media (min-width: 900px) {
+    .iconFeatures {
+        padding: 0rem 8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .iconFeatures {
+        padding: 0rem 11rem;
     }
 }

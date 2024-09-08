@@ -25,10 +25,9 @@
 </head>
 
 <body>
-
-    <!-- NAVBAR -->
     <header class="header">
-        <nav class="header__nav">
+        <!-- NAVBAR MOBILE-->
+        <nav class="header__nav mobile">
             <div class="flex">
                 <div class='header__nav--container' id="OpenButtonMenu">
                     <span class="material-symbols-outlined">
@@ -56,22 +55,62 @@
             <div class="header__nav__menuDesplegable" id="HamburguerMenu">
                 <ul class="header__nav__menuDesplegable__list">
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="about.html" class="header__nav__menuDesplegable__link">About Us</a>
+                        <a href="about.html" class="header__nav__menuDesplegable__link font--archivo">About Us</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="rooms.html" class="header__nav__menuDesplegable__link">Rooms</a>
+                        <a href="rooms.html" class="header__nav__menuDesplegable__link font--archivo">Rooms</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="offers.html" class="header__nav__menuDesplegable__link">Offers</a>
+                        <a href="offers.html" class="header__nav__menuDesplegable__link font--archivo">Offers</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="contact.html" class="header__nav__menuDesplegable__link">Contact</a>
+                        <a href="contact.html" class="header__nav__menuDesplegable__link font--archivo">Contact</a>
+
                     </li>
                 </ul>
             </div>
         </nav>
+        <!-- END NAVBAR MOBILE-->
+
+        <!-- ********************************* -->
+
+        <!-- NAVBAR DESKTOP -->
+         <nav class="header__nav desktop">
+            <div class="header__nav-content flex">
+                <div class="space">
+                    <a href="./index.html" class="contents">
+                        <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG"
+                            alt="logo">
+                    </a>
+                </div>
+                <div class="header__nav__logo--container--text">
+                    <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
+                    <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
+                </div>
+                <ul class="header__nav__menuDesplegable__list flex">
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="about.html" class="header__nav__menuDesplegable__link font--archivo">About Us</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="rooms.html" class="header__nav__menuDesplegable__link font--archivo">Rooms</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="offers.html" class="header__nav__menuDesplegable__link font--archivo">Offers</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="contact.html" class="header__nav__menuDesplegable__link font--archivo">Contact</a>
+
+                    </li>
+                </ul>
+
+                <div class="header__nav--icons">
+                    <img class="icon" src="assets/imagenes/Vector.svg" alt="">
+                    <img class="icon header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
+                </div>
+            </div>
+         </nav>
+         <!-- END NAVBAR DESKTOP -->
     </header>
-    <!-- END NAVBAR -->
 
     <!-- SECTION CONTACT -->
 
@@ -87,7 +126,7 @@
         </div>
 
         <div class="contact__info">
-            <div>
+            <div >
                 <div class="contact__info__card">
                     <img src="assets/imagenes/adressContact.svg" alt="">
                     <div class="contact__info__card__titles">
@@ -100,7 +139,7 @@
                 <img class="contact__info__0" src="assets/imagenes/01Contact.svg" alt="">
             </div>
 
-            <div>
+            <div class="contact__info__2">
                 <div class="contact__info__card">
                     <img src="assets/imagenes/phoneContact.svg" alt="">
                     <div class="contact__info__card__titles">
@@ -113,7 +152,7 @@
             </div>
 
 
-            <div>
+            <div class="contact__info__3">
                 <div class="contact__info__card">
                     <img src="assets/imagenes/emailContact.svg" alt="">
                     <div class="contact__info__card__titles">
@@ -275,8 +314,11 @@
         </div>
 
         <div class="footer__copyright">
-            <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
-            <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            <div class="footer__copyright__desktop">
+                <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+                <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            </div>
+            
         </div>
     </footer>
 

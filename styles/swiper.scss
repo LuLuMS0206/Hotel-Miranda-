@@ -14,6 +14,17 @@
     }
 }
 
+@media (min-width: 1000px) {
+    .swiper-wrapper {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+}
+
 //****************
 
 .swiper-arrows {
@@ -39,19 +50,19 @@
             &:hover {
                 color: #FFF;
                 background-color: #BDAC8D;
-                
+
             }
         }
 
         &--menu:hover {
             background-color: #F8F8F8;
             color: #111;
-        
+
         }
 
     }
 
-    
+
 
     .swiper-button-prev::after,
     .swiper-button-next::after {
@@ -59,13 +70,14 @@
     }
 }
 
-.swiper-arrowFacilities{
+.swiper-arrowFacilities {
 
     .swiper-wrapper {
         height: 50%;
     }
 
-    .swiper-button-prev--izq, .swiper-button-prev--der{
+    .swiper-button-prev--izq,
+    .swiper-button-prev--der {
         top: 9rem;
         width: 3em;
         height: 3em;
@@ -81,7 +93,7 @@
 }
 
 
-.swiper-arrowTests--background{
+.swiper-arrowTests--background {
     padding: 3rem 2rem;
     background: #222222;
 }
@@ -96,14 +108,28 @@
 @media (min-width: 1000px) {
     .swiper-arrowTests {
         padding: 0rem 15rem;
-    }}
 
-    @media (min-width: 1300px) {
-        .swiper-arrowTests {
-            padding: 0rem 20rem;
-        }}
+        .swiper-button-prev--izq,
+        .swiper-button-prev--der {
+            top: 15rem;
+        }
+    }
+}
 
-        @media (min-width: 1400px) {
-            .swiper-arrowTests {
-                padding: 0rem 32rem;
-            }}
+
+
+@media (min-width: 1300px) {
+    .swiper-arrowTests {
+        padding: 0rem 20rem;
+    }
+
+    .swiper--none {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .swiper-arrowTests {
+        padding: 0rem 32rem;
+    }
+}

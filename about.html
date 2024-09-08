@@ -28,10 +28,9 @@
 </head>
 
 <body>
-
-    <!-- NAVBAR -->
     <header class="header">
-        <nav class="header__nav">
+        <!-- NAVBAR MOBILE-->
+        <nav class="header__nav mobile">
             <div class="flex">
                 <div class='header__nav--container' id="OpenButtonMenu">
                     <span class="material-symbols-outlined">
@@ -41,7 +40,8 @@
 
                 <div class="header__nav__logo--container font--archivo">
                     <a href="./index.html" class="contents">
-                        <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG" alt="logo">
+                        <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG"
+                            alt="logo">
                     </a>
                     <div class="header__nav__logo--container--text">
                         <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
@@ -58,23 +58,62 @@
             <div class="header__nav__menuDesplegable" id="HamburguerMenu">
                 <ul class="header__nav__menuDesplegable__list">
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="about.html" class="header__nav__menuDesplegable__link">About Us</a>
+                        <a href="about.html" class="header__nav__menuDesplegable__link font--archivo">About Us</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="rooms.html" class="header__nav__menuDesplegable__link">Rooms</a>
+                        <a href="rooms.html" class="header__nav__menuDesplegable__link font--archivo">Rooms</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="offers.html" class="header__nav__menuDesplegable__link">Offers</a>
+                        <a href="offers.html" class="header__nav__menuDesplegable__link font--archivo">Offers</a>
                     </li>
                     <li class="header__nav__menuDesplegable__item">
-                        <a href="contact.html" class="header__nav__menuDesplegable__link">Contact</a>
+                        <a href="contact.html" class="header__nav__menuDesplegable__link font--archivo">Contact</a>
+
                     </li>
                 </ul>
             </div>
         </nav>
-    </header>
-    <!-- END NAVBAR -->
+        <!-- END NAVBAR MOBILE-->
 
+        <!-- ********************************* -->
+
+        <!-- NAVBAR DESKTOP -->
+         <nav class="header__nav desktop">
+            <div class="header__nav-content flex">
+                <div class="space">
+                    <a href="./index.html" class="contents">
+                        <img class="header__nav__logo--container--a--img" src="./assets/imagenes/logoHotel.JPG"
+                            alt="logo">
+                    </a>
+                </div>
+                <div class="header__nav__logo--container--text">
+                    <h2 class="header__nav__logo--container--text--title">HOTEL</h2>
+                    <h2 class="header__nav__logo--container--text--subtitle">MIRANDA</h2>
+                </div>
+                <ul class="header__nav__menuDesplegable__list flex">
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="about.html" class="header__nav__menuDesplegable__link font--archivo">About Us</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="rooms.html" class="header__nav__menuDesplegable__link font--archivo">Rooms</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="offers.html" class="header__nav__menuDesplegable__link font--archivo">Offers</a>
+                    </li>
+                    <li class="header__nav__menuDesplegable__item">
+                        <a href="contact.html" class="header__nav__menuDesplegable__link font--archivo">Contact</a>
+
+                    </li>
+                </ul>
+
+                <div class="header__nav--icons">
+                    <img class="icon" src="assets/imagenes/Vector.svg" alt="">
+                    <img class="icon header__nav--icons--search" src="assets/imagenes/search.svg" alt="">
+                </div>
+            </div>
+         </nav>
+         <!-- END NAVBAR DESKTOP -->
+    </header>
 
     <!-- SECTION ABOUT -->
     <section class="about">
@@ -151,6 +190,7 @@
 
 
         <!-- SLIDER PAGINATION -->
+         <div class="swiper-facilities">
         <div class="swiper swiper-pag-abouts ">
             <div class="swiper swiper-pag-about ">
                 <!-- Additional required wrapper -->
@@ -277,79 +317,159 @@
 
             </div>
         </div>
+    </div>
         <!-- END SLIDER PAGINATION -->
+
+            <!-- GRID FOR DESKTOP -->
+    <div class="facilitiesGrid">
+        <!-- Card 1 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/icon-facilities.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/icon01-about.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Have High Rating</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/reloj.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/02.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Quiet Hours</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/locations.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/03.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Best Locations</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/cancellation.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/04.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Free Cancellation</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/payment.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/05.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Payment Options</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="facilitiesAbout__container">
+            <div class="facilitiesAbout__container__icons">
+                <img class="facilitiesAbout__container__icons__icon" src="assets/imagenes/special.svg" alt="">
+                <img class="facilitiesAbout__container__icons__01" src="assets/imagenes/06.svg" alt="">
+            </div>
+            <div class="facilitiesAbout__container__text">
+                <p class="facilitiesAbout__container__text__title font--old">Special Offers</p>
+                <p class="facilitiesAbout__container__text__p font--roboto">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            </div>
+        </div>
+    </div>
+    <!-- END GRID -->
 
 
     </section>
     <!-- END SECTION FACILITIES -->
 
 
-    <!-- SECTION COUNTER -->
-    <section class="counter">
-        <div class="counter__text">
-            <p class="counter__text__title font--archivo">COUNTER</p>
-            <h3 class="counter__text__subtitle font--old">Some Fun Facts</h3>
+<!-- SECTION COUNTER -->
+<section class="counter">
+    <div class="counter__text">
+        <p class="counter__text__title font--archivo">COUNTER</p>
+        <h3 class="counter__text__subtitle font--old">Some Fun Facts</h3>
+    </div>
+
+    <div class="counter__facts">
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/person-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">8000</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Happy Users</p>
+            </div>
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
 
-        <div class="counter__facts">
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/person-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">8000</h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Happy Users</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/star-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">10M</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Reviews & Appriciate</p>
             </div>
-
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/star-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">10M </h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Reviews & Appriciate</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
-            </div>
-
-
-            <div class="counter__facts__fact">
-                <img class="counter__facts__fact__img" src="assets/imagenes/world-counter.svg" alt="">
-                <div class="counter__facts__fact__text">
-                    <h2 class="counter__facts__fact__text__number font--old">100 </h2>
-                    <p class="counter__facts__fact__text__p font--roboto"> Country Coverage</p>
-                </div>
-                <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
-            </div>
-
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
 
-        
-
-        <!-- SLIDER PAGINATION -->
-        <div class="swiper__pagination__about swiper-pag-abouts">
-            <div class="swiper swiper-pag-about">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper ">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
-                    </div>
-                    ...
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+        <div class="counter__facts__fact">
+            <img class="counter__facts__fact__img" src="assets/imagenes/world-counter.svg" alt="">
+            <div class="counter__facts__fact__text">
+                <h2 class="counter__facts__fact__text__number font--old">100</h2>
+                <p class="counter__facts__fact__text__p font--roboto"> Country Coverage</p>
             </div>
+            <img class="counter__facts__imgFlecha" src="assets/imagenes/flecha-counter.svg" alt="">
         </div>
-        <!-- END SLIDER PAGINATION -->
+    </div>
 
-        
-    </section>
-    <!-- END SECTION COUNTER -->
+    <!-- SLIDER PAGINATION - SOLO MOVIL -->
+    <div class="swiper__pagination__about swiper-pag-abouts">
+        <div class="swiper swiper-pag-about">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="counter__img__room" src="assets/imagenes/room-counter.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- END SLIDER PAGINATION -->
+
+    <!-- IMAGENES - DESKTOP -->
+    <div class="counter__images">
+        <img class="counter__images__img" src="assets/imagenes/room-counter.jpg" alt="Room Image 1">
+        <img class="counter__images__img" src="assets/imagenes/room-counter.jpg" alt="Room Image 2">
+    </div>
+</section>
+<!-- END SECTION COUNTER -->
+
 
 
 
@@ -445,8 +565,11 @@
         </div>
 
         <div class="footer__copyright">
-            <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
-            <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            <div class="footer__copyright__desktop">
+                <p class="footer__copyright__text font--roboto">Copyright By@Example - 2020</p>
+                <p class="footer__copyright__text font--roboto">Terms of use | Privacy Environmental Policy</p>
+            </div>
+            
         </div>
     </footer>
 

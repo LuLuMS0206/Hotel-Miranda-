@@ -21,7 +21,6 @@
                 }
 
                 &__subtitle {
-                    // width: 66%;
                     font-size: 0.875rem;
                     font-weight: 400;
                     line-height: 1rem;
@@ -36,6 +35,8 @@
 
         &__0 {
             transform: translate(135px, -83px);
+            width: 8rem;
+            
         }
     }
 
@@ -95,13 +96,8 @@
 
 
     .contact__info {
-        // padding: 0rem 0rem;
         justify-content: space-evenly;
         display: flex;
-
-        &__0{
-            width: 8rem;
-        }
     }
 
 }
@@ -117,9 +113,19 @@
         justify-content: space-between;
     }
 
-    // .contact__map {
-    //     padding: 0rem 20rem;
-    // }
+    .information__map{
+        width: 80%;
+    }
+
+    .contact__info {
+        &__2{
+            margin-right: 10rem;
+           }
+
+       &__3{
+        margin-right: 8rem;
+       }
+    }
 
 }
 
