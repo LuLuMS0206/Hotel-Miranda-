@@ -31,6 +31,10 @@
     justify-content: space-between;
     align-items: end;
 
+    &--icon{
+        transform: translate(19px, -83px);
+        width: 14%;
+    }
     }
 
     &--icons--number{
@@ -38,16 +42,23 @@
         font-size: 7.5em;
         font-weight: 700;
         margin-bottom: 2rem;
+        transform: translate(2px, -22px);
+
+        @media (min-width: 1000px) {
+            transform: translate(-22px, -45px);
+        }
     }
 }
 
 .facilities__container--text{
+    margin-top: -5rem;
+
     &--title{
         font-weight: 400;
     font-size: 1.875rem;
     color: #222222;
     margin-bottom: 0.5rem;
-    margin-top: 2rem;
+    // margin-top: 2rem;
     }
     
     

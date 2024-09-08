@@ -21,6 +21,7 @@
         }
 
         &.mobile{
+            padding: 0.5rem;
             @media (min-width: 645px){
                 display:none;
             }

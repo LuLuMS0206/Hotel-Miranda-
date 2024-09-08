@@ -24,6 +24,9 @@
     background-color: white;
   }
 }
+.header__nav.mobile {
+  padding: 0.5rem;
+}
 @media (min-width: 645px) {
   .header__nav.mobile {
     display: none;
@@ -158,6 +161,7 @@
   letter-spacing: 0.175rem;
   width: 60%;
   line-height: 1.125rem;
+  margin-top: 2rem;
 }
 .main__container--title {
   font-size: 3.5rem;
@@ -535,19 +539,31 @@
   justify-content: space-between;
   align-items: end;
 }
+.facilities__container--icons--icon {
+  transform: translate(19px, -83px);
+  width: 14%;
+}
 .facilities__container--icons--number {
   color: rgba(34, 34, 34, 0.0392156863);
   font-size: 7.5em;
   font-weight: 700;
   margin-bottom: 2rem;
+  transform: translate(2px, -22px);
+}
+@media (min-width: 1000px) {
+  .facilities__container--icons--number {
+    transform: translate(-22px, -45px);
+  }
 }
 
+.facilities__container--text {
+  margin-top: -5rem;
+}
 .facilities__container--text--title {
   font-weight: 400;
   font-size: 1.875rem;
   color: #222222;
   margin-bottom: 0.5rem;
-  margin-top: 2rem;
 }
 .facilities__container--text--p {
   font-weight: 400;
@@ -843,7 +859,7 @@
 .about__content {
   background-color: #333333;
   padding: 2rem 1rem 5rem 1rem;
-  margin-top: 4.5rem;
+  margin-top: 3.5rem;
 }
 .about__content__title {
   font-weight: 700;
