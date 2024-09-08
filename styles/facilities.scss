@@ -63,4 +63,26 @@
     }
 }
 
-
+.facilities-grid-container {
+    display: none; /* Oculto por defecto (en móvil y pantallas pequeñas) */
+    
+    @media (min-width: 1000px) {
+        display: grid; /* Mostrar grid solo en pantallas grandes */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+        padding: 0rem 5rem;
+        .facilities-grid-item {
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+    }
+}
+  
+.swiper-mobile {
+    display: block; /* Visible solo en móvil */
+  
+    @media (min-width: 1000px) {
+        display: none; /* Ocultar slider en pantallas grandes */
+    }
+}

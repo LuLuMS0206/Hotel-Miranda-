@@ -1,24 +1,24 @@
-.about__us__features{
+.about__us__features {
     padding: 2em 1.25em;
 
-    &--img{
+    &--img {
         width: 100%;
     }
-    
-    &--feature{
+
+    &--feature {
         text-align: center;
         margin-top: 2rem;
     }
 
-    &--feature--img{
+    &--feature--img {
         position: absolute;
         z-index: -1;
         translate: -42px 4px;
-    
-    }
-    
 
-    &--feature--title{
+    }
+
+
+    &--feature--title {
         margin-bottom: 0.7em;
         font-weight: 400;
         font-size: 1.9rem;
@@ -28,33 +28,33 @@
         margin-top: 2rem;
     }
 
-    &--feature--text{
+    &--feature--text {
         margin: 0 auto;
-    width: 77%;
-    color: #111;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 0.85rem;
-    line-height: 1.4rem;
-    letter-spacing: 0rem;
-    text-align: center;
+        width: 77%;
+        color: #111;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 0.85rem;
+        line-height: 1.4rem;
+        letter-spacing: 0rem;
+        text-align: center;
     }
 
-    &--imgLuxury{
+    &--imgLuxury {
         width: 100%;
         margin-top: 4rem;
     }
 
-    &--luxury--container{
+    &--luxury--container {
         background-color: #111;
         text-align: center;
         padding: 0rem 0rem 3rem 0rem;
 
-        &--icon{
+        &--icon {
             margin-top: 3rem;
         }
 
-        &--title{
+        &--title {
             margin-bottom: 0.7em;
             font-weight: 400;
             font-size: 1.9rem;
@@ -64,16 +64,46 @@
             margin-top: 2rem;
         }
 
-        &--text{
+        &--text {
             margin: 0 auto;
-    width: 77%;
-    font-weight: 400;
-    font-size: 0.85rem;
-    line-height: 1.4rem;
-    letter-spacing: 0rem;
-    color: white;
-}
+            width: 77%;
+            font-weight: 400;
+            font-size: 0.85rem;
+            line-height: 1.4rem;
+            letter-spacing: 0rem;
+            color: white;
         }
     }
-    
+}
 
+
+@media (min-width: 1100px) {
+    .about__us__features {
+        padding: 2rem 5rem;
+
+        &__employed {
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 2rem;
+        }
+
+        &__luxuryRoom {
+            display: flex;
+            margin-top: 4rem;
+            gap: 2rem;
+        }
+
+        &--imgLuxury {
+            width: 50%;
+            margin-top: 0rem;
+        }
+
+        &--img {
+            width: 50%;
+        }
+    }
+
+    .about__us {
+        margin-top: 0rem;
+    }
+}
